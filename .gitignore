@@ -41,8 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # Large media files (host externally - YouTube/Vimeo/CDN)
-*.mp4
 *.mov
 *.avi
 *.mkv
-public/new/*.mp4
