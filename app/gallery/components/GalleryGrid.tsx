@@ -279,10 +279,10 @@ export default function GalleryGrid() {
               {visibleCount < filteredImages.length && (
                 <div className="flex justify-center mt-12">
                   <button
-                    onClick={() => setVisibleCount((prev) => prev + 12)}
+                    onClick={() => setVisibleCount(filteredImages.length)}
                     className="px-8 py-3.5 bg-white border border-slate-300 text-slate-700 hover:border-[#1e3a8a] hover:text-[#1e3a8a] rounded-xl font-bold text-xs uppercase tracking-widest transition-all duration-300 shadow-sm"
                   >
-                    Load More Photos
+                    View All
                   </button>
                 </div>
               )}
