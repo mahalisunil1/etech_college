@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 
 const galleryImages = [
   { id: 1, src: "/new/AWARDS & CEREMONIES/DSC_7614.webp", alt: "State Level Felicitation 2026" },
@@ -27,9 +28,22 @@ export default function AchievementGallery() {
       if (e.key === "ArrowRight") setSelectedIdx((prev) => (prev! + 1) % galleryImages.length);
       if (e.key === "ArrowLeft") setSelectedIdx((prev) => (prev! - 1 + galleryImages.length) % galleryImages.length);
     };
+
     
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [selectedIdx]);
+
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (selectedIdx !== null) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [selectedIdx]);
 
   return (
@@ -86,8 +100,13 @@ export default function AchievementGallery() {
       </div>
 
       {/* ── LIGHTBOX MODAL ── */}
-      {selectedIdx !== null && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0f1e45]/95 backdrop-blur-sm p-4 animate-fadeIn">
+      {selectedIdx !== null && mounted && createPortal(
+        <div 
+          className="fixed inset-0 flex items-center justify-center bg-[#0f1e45]/98 backdrop-blur-md p-4 animate-fadeIn"
+          style={{ zIndex: 999999, touchAction: 'none' }}
+          onWheel={(e) => e.stopPropagation()}
+          onTouchMove={(e) => e.stopPropagation()}
+        >
           {/* Close Button */}
           <button 
             className="absolute top-6 right-6 w-12 h-12 bg-white/10 hover:bg-[#fbbf24] text-white hover:text-slate-900 rounded-full flex items-center justify-center transition-colors z-50"
@@ -136,7 +155,8 @@ export default function AchievementGallery() {
               {selectedIdx + 1} / {galleryImages.length}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

@@ -64,9 +64,15 @@ const achievers: Achiever[] = [
   { name: "Sthitipragyan Dash", marks: 568, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/50 - STHITIPRAGYAN DASH - 568.webp", rollNo: "ET26-050", isWomens: false },
 ];
 
+const ALPHABETS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
 export default function TopAchievers() {
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState<"all" | "coed" | "womens">("all");
+  const [showAllCoed, setShowAllCoed] = useState(false);
+  const [showAllWomens, setShowAllWomens] = useState(false);
+  const [filterLetterCoed, setFilterLetterCoed] = useState<string | null>(null);
+  const [filterLetterWomens, setFilterLetterWomens] = useState<string | null>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -82,15 +88,26 @@ export default function TopAchievers() {
     title: string,
     topper: Achiever | undefined,
     others: Achiever[],
-    isWomensSection: boolean
+    isWomensSection: boolean,
+    showAll: boolean,
+    onToggleShowAll: () => void,
+    filterLetter: string | null,
+    setFilterLetter: (letter: string | null) => void
   ) => {
     if (!topper) return null;
 
+    const filteredOthers = filterLetter
+      ? others.filter((a) => a.name.toUpperCase().startsWith(filterLetter))
+      : others;
+      
+    const uniqueLetters = Array.from(new Set(others.map((a) => a.name.charAt(0).toUpperCase()))).sort();
+
     // Find global rank for the topper
     const globalRank = achievers.findIndex((a) => a.name === topper.name) + 1;
+    const sectionId = `toppers-${isWomensSection ? 'womens' : 'coed'}`;
 
     return (
-      <div className="mb-24 last:mb-0">
+      <div id={sectionId} className="mb-24 last:mb-0 scroll-mt-32">
         {/* Section Subheading */}
         <div className="flex items-center gap-4 mb-10">
           <div className={`w-3 h-3 rounded-full ${isWomensSection ? "bg-rose-500" : "bg-blue-600"}`} />
@@ -149,13 +166,67 @@ export default function TopAchievers() {
 
           {/* Grid of Other Toppers */}
           <div className="w-full lg:w-2/3">
-            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-              {others.map((achiever) => {
+            {/* Alphabet Filter */}
+            {uniqueLetters.length > 0 && (
+              <div className="flex flex-wrap items-center gap-1.5 md:gap-2 mb-6">
+                <button
+                  onClick={() => { setFilterLetter(null); if(showAll) onToggleShowAll(); }}
+                  className={`px-3 py-1.5 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wider transition-colors ${
+                    !filterLetter
+                      ? "bg-blue-600 text-white shadow-md"
+                      : "bg-white text-slate-500 hover:bg-slate-100 hover:text-slate-800 border border-slate-200"
+                  }`}
+                >
+                  All
+                </button>
+                {ALPHABETS.map(letter => {
+                  return (
+                    <button
+                      key={letter}
+                      onClick={() => { setFilterLetter(letter); if(!showAll) onToggleShowAll(); }}
+                      className={`w-7 h-7 md:w-8 md:h-8 flex items-center justify-center rounded-full text-[11px] md:text-xs font-bold transition-colors ${
+                        filterLetter === letter
+                          ? "bg-blue-600 text-white shadow-md"
+                          : "bg-white text-slate-500 hover:bg-slate-100 hover:text-slate-800 border border-slate-200"
+                      }`}
+                    >
+                      {letter}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+
+            {filteredOthers.length === 0 ? (
+              <div className="w-full flex flex-col items-center justify-center py-16 bg-slate-50 border border-slate-200 border-dashed rounded-2xl animate-fadeIn">
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-8 h-8 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                </div>
+                <h4 className="text-slate-800 font-bold text-lg mb-1">No Achievers Found</h4>
+                <p className="text-slate-500 font-medium text-sm text-center px-4">
+                  There are no students whose name starts with "{filterLetter}" in this section.
+                </p>
+                <button 
+                  onClick={() => { setFilterLetter(null); if(showAll) onToggleShowAll(); }}
+                  className="mt-6 px-6 py-2 bg-blue-600 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors shadow-sm"
+                >
+                  Clear Filter
+                </button>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                {(showAll ? filteredOthers : filteredOthers.slice(0, 11)).map((achiever, index) => {
                 const globalRankIdx = achievers.findIndex((a) => a.name === achiever.name) + 1;
+                const isExpandedItem = showAll && index > 10;
+                const hideOnMobile = !showAll && index > 3;
+                
                 return (
                   <div 
                     key={achiever.rollNo} 
-                    className="group relative bg-white rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.02)] hover:shadow-[0_20px_45px_rgba(30,58,138,0.1)] border border-slate-100 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-1"
+                    className={`group relative bg-white rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.02)] hover:shadow-[0_20px_45px_rgba(30,58,138,0.1)] border border-slate-100 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-1 ${hideOnMobile ? 'hidden sm:block' : ''}`}
+                    style={isExpandedItem ? { animation: `fadeInScale 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards`, animationDelay: `${(index - 11) * 40}ms`, opacity: 0 } : {}}
                   >
                     <div className="relative aspect-[4/5] overflow-hidden">
                       <Image 
@@ -163,6 +234,7 @@ export default function TopAchievers() {
                         alt={achiever.name} 
                         fill
                         sizes="(max-width: 768px) 100vw, 20vw"
+                        loading="lazy"
                         className="object-cover object-top group-hover:scale-105 transition-transform duration-700 bg-slate-50"
                       />
                       
@@ -191,6 +263,38 @@ export default function TopAchievers() {
                 );
               })}
             </div>
+            )}
+
+            {/* View All / Less Button for this specific section */}
+            {filteredOthers.length > 11 && (
+              <div id={`toggle-${sectionId}`} className="flex justify-center mt-10 relative z-20 reveal">
+                <button
+                  onClick={() => {
+                    if (showAll) {
+                      onToggleShowAll(); // Collapse first
+                      setTimeout(() => {
+                        const el = document.getElementById(`toggle-${sectionId}`);
+                        if (el) {
+                          el.scrollIntoView({ behavior: "smooth", block: "center" });
+                        }
+                      }, 50);
+                    } else {
+                      onToggleShowAll();
+                    }
+                  }}
+                  className="inline-flex items-center gap-2 bg-white border border-slate-200 text-slate-800 hover:bg-slate-50 hover:border-blue-500 hover:text-blue-600 px-6 py-3 rounded-lg font-bold text-sm shadow-sm hover:shadow-md transition-all duration-300 group"
+                >
+                  {showAll ? "View Less" : `View All ${isWomensSection ? "Women's" : "Co-Ed"} Achievers`}
+                  <svg className={`w-4 h-4 transition-transform ${showAll ? "group-hover:-translate-y-1" : "group-hover:translate-y-1"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {showAll ? (
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 15l7-7 7 7" />
+                    ) : (
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    )}
+                  </svg>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -222,6 +326,10 @@ export default function TopAchievers() {
         @keyframes floatFast {
           0%, 100% { transform: translateY(0) rotate(0deg); }
           50% { transform: translateY(-15px) rotate(-5deg); }
+        }
+        @keyframes fadeInScale {
+          0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+          100% { opacity: 1; transform: scale(1) translateY(0); }
         }
       `}</style>
       <svg className="absolute top-20 left-10 w-8 h-8 text-[#fbbf24]/30 pointer-events-none" style={{ animation: 'floatSlow 6s ease-in-out infinite' }} fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L14.4 9.6H22L15.8 14.4L18.2 22L12 17.2L5.8 22L8.2 14.4L2 9.6H9.6L12 2Z"/></svg>
@@ -277,10 +385,10 @@ export default function TopAchievers() {
         {/* Sections Grid Layout */}
         <div className={`transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
           {(activeTab === "all" || activeTab === "coed") && 
-            renderSection("eTech Residential Higher Secondary School Toppers (Co-Ed)", coedTopper, coedOthers, false)
+            renderSection("eTech Residential Higher Secondary School Toppers (Co-Ed)", coedTopper, coedOthers, false, showAllCoed, () => setShowAllCoed(!showAllCoed), filterLetterCoed, setFilterLetterCoed)
           }
           {(activeTab === "all" || activeTab === "womens") && 
-            renderSection("eTech Women's Higher Secondary School Toppers", womensTopper, womensOthers, true)
+            renderSection("eTech Women's Higher Secondary School Toppers", womensTopper, womensOthers, true, showAllWomens, () => setShowAllWomens(!showAllWomens), filterLetterWomens, setFilterLetterWomens)
           }
         </div>
       </div>

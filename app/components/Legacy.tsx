@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import { useState, useEffect, useCallback, useRef } from "react";
+
 export default function Legacy() {
   const achievements = [
     {
@@ -39,6 +43,54 @@ export default function Legacy() {
     },
   ];
 
+  const [current, setCurrent] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+  const [paused, setPaused] = useState(false);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
+  const total = achievements.length;
+
+  // Detect mobile breakpoint (matches lg:grid-cols-3 at 1024px)
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 1024);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
+  // Auto-advance every 4 seconds on mobile
+  const next = useCallback(() => {
+    setCurrent((prev) => (prev + 1) % total);
+  }, [total]);
+
+  useEffect(() => {
+    if (!isMobile || paused) return;
+    const timer = setInterval(next, 4000);
+    return () => clearInterval(timer);
+  }, [isMobile, paused, next]);
+
+  // Touch swipe handlers
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+    setPaused(true);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    const diff = touchStartX.current - touchEndX.current;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        setCurrent((prev) => (prev + 1) % total);
+      } else {
+        setCurrent((prev) => (prev - 1 + total) % total);
+      }
+    }
+    // Resume auto-play after 5 seconds
+    setTimeout(() => setPaused(false), 5000);
+  };
 
   return (
     <section className="w-full py-16 md:py-32 bg-white relative z-20 border-t border-slate-100 overflow-hidden">
@@ -103,12 +155,12 @@ export default function Legacy() {
             </div>
           </div>
           <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-sm pb-4 text-center md:text-left mt-6 md:mt-0">
-            We don't just teach; we produce leaders. Our track record speaks for itself, making eTech a beacon of academic brilliance.
+            We don&apos;t just teach; we produce leaders. Our track record speaks for itself, making eTech a beacon of academic brilliance.
           </p>
         </div>
 
-        {/* Cards Grid - 3x3 Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 reveal">
+        {/* ── Desktop: Cards Grid (3 columns) ── */}
+        <div className="hidden lg:grid grid-cols-3 gap-6 reveal">
           {achievements.map((item, index) => (
             <div 
               key={index}
@@ -128,7 +180,6 @@ export default function Legacy() {
                   }}
                 />
               </div>
-
 
               {/* Image */}
               <div className="w-full xl:w-[130px] h-[160px] shrink-0 rounded-2xl overflow-hidden relative z-10 shadow-sm border border-slate-100">
@@ -152,6 +203,131 @@ export default function Legacy() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* ── Mobile: Auto-Carousel ── */}
+        <div className="lg:hidden reveal">
+          <div
+            className="relative overflow-hidden rounded-[24px]"
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
+          >
+            {/* Sliding track */}
+            <div
+              className="flex transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
+              style={{ transform: `translateX(-${current * 100}%)` }}
+            >
+              {achievements.map((item, index) => (
+                <div
+                  key={index}
+                  className="w-full shrink-0 px-1"
+                >
+                  <div className="flex flex-col items-center gap-5 p-5 rounded-[24px] bg-white border border-slate-200 shadow-sm relative overflow-hidden">
+                    {/* Premium Micro-Dot Matrix Pattern */}
+                    <div className="absolute inset-0 pointer-events-none overflow-hidden rounded-[24px]">
+                      <div className="absolute -top-8 -right-8 w-48 h-48 bg-[#1E3A8A]/[0.08] rounded-full blur-3xl" />
+                      <div 
+                        className="absolute inset-0 opacity-[0.12]"
+                        style={{
+                          backgroundImage: `radial-gradient(#1E3A8A 1.5px, transparent 1.5px)`,
+                          backgroundSize: '18px 18px',
+                          WebkitMaskImage: 'linear-gradient(135deg, black 30%, transparent 100%)'
+                        }}
+                      />
+                    </div>
+
+                    {/* Image */}
+                    <div className="w-full h-[180px] shrink-0 rounded-2xl overflow-hidden relative z-10 shadow-sm border border-slate-100">
+                      <Image src={item.image} 
+                        alt={item.title}
+                        className="absolute inset-0 w-full h-full object-cover"
+                       width={800} height={800} unoptimized={false} />
+                    </div>
+
+                    {/* Content */}
+                    <div className="flex flex-col justify-center py-2 z-10 relative text-center">
+                      <span className="text-[44px] font-extrabold text-[#1E3A8A] tracking-tight leading-none mb-3">
+                        {item.stat}
+                      </span>
+                      <span className="text-[17px] font-bold text-slate-900 leading-snug mb-1.5 block">
+                        {item.title}
+                      </span>
+                      <span className="text-[14px] font-medium text-slate-600 leading-relaxed block">
+                        {item.desc}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* ── Overlay Nav Arrows ── */}
+            <button
+              onClick={() => { setCurrent((prev) => (prev - 1 + total) % total); setPaused(true); setTimeout(() => setPaused(false), 5000); }}
+              className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-white/80 backdrop-blur-md border border-slate-200 shadow-lg flex items-center justify-center text-slate-700 hover:bg-blue-50 hover:text-blue-600 active:scale-90 transition-all duration-200"
+              aria-label="Previous slide"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button
+              onClick={() => { setCurrent((prev) => (prev + 1) % total); setPaused(true); setTimeout(() => setPaused(false), 5000); }}
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-white/80 backdrop-blur-md border border-slate-200 shadow-lg flex items-center justify-center text-slate-700 hover:bg-blue-50 hover:text-blue-600 active:scale-90 transition-all duration-200"
+              aria-label="Next slide"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+
+          {/* ── Bottom Controls: Arrows + Dots + Progress ── */}
+          <div className="flex flex-col items-center mt-6 gap-3">
+            {/* Progress bar */}
+            <div className="w-32 h-1 bg-slate-200 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full transition-all duration-500 ease-out"
+                style={{ width: `${((current + 1) / total) * 100}%` }}
+              />
+            </div>
+            {/* Arrows + Dots row */}
+            <div className="flex items-center gap-4">
+              <button
+                onClick={() => { setCurrent((prev) => (prev - 1 + total) % total); setPaused(true); setTimeout(() => setPaused(false), 5000); }}
+                className="w-9 h-9 rounded-full bg-white border border-slate-200 shadow-sm flex items-center justify-center text-slate-600 hover:bg-blue-50 hover:text-blue-600 active:scale-90 transition-all duration-200"
+                aria-label="Previous slide"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <div className="flex items-center gap-2">
+                {achievements.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => { setCurrent(i); setPaused(true); setTimeout(() => setPaused(false), 5000); }}
+                    className={`rounded-full transition-all duration-300 ${
+                      i === current
+                        ? "w-7 h-2.5 bg-blue-600 shadow-[0_0_12px_rgba(37,99,235,0.4)]"
+                        : "w-2.5 h-2.5 bg-slate-300 hover:bg-slate-400"
+                    }`}
+                    aria-label={`Go to slide ${i + 1}`}
+                  />
+                ))}
+              </div>
+              <button
+                onClick={() => { setCurrent((prev) => (prev + 1) % total); setPaused(true); setTimeout(() => setPaused(false), 5000); }}
+                className="w-9 h-9 rounded-full bg-white border border-slate-200 shadow-sm flex items-center justify-center text-slate-600 hover:bg-blue-50 hover:text-blue-600 active:scale-90 transition-all duration-200"
+                aria-label="Next slide"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
 
       </div>

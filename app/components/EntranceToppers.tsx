@@ -44,7 +44,7 @@ export default function EntranceToppers({ transparentBg = false, theme = "light"
       <svg className="absolute top-20 right-16 w-12 h-12 text-blue-500/10 pointer-events-none z-0" style={{ animation: 'floatSlow 6s ease-in-out infinite' }} fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L14.4 9.6H22L15.8 14.4L18.2 22L12 17.2L5.8 22L8.2 14.4L2 9.6H9.6L12 2Z"/></svg>
       <svg className="absolute bottom-32 left-12 w-8 h-8 text-indigo-500/10 pointer-events-none z-0" style={{ animation: 'floatFast 4s ease-in-out infinite' }} fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L14.4 9.6H22L15.8 14.4L18.2 22L12 17.2L5.8 22L8.2 14.4L2 9.6H9.6L12 2Z"/></svg>
 
-      <div className="w-[90vw] mx-auto px-4 sm:px-8 lg:px-12 relative z-10">
+      <div className="w-[92vw] sm:w-[90vw] mx-auto px-3 sm:px-8 lg:px-12 relative z-10">
 
         {/* ── Header ── */}
         <div className="text-center max-w-3xl mx-auto mb-16 reveal">
@@ -54,7 +54,7 @@ export default function EntranceToppers({ transparentBg = false, theme = "light"
           <div className="relative inline-block mb-8 group">
             {/* Header Ambient Glow */}
             <div className="absolute -inset-6 bg-gradient-to-r from-blue-600/10 via-cyan-400/10 to-blue-600/10 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000 rounded-full" />
-            <h2 className={`relative text-[3.25rem] sm:text-[4.5rem] lg:text-[5rem] font-serif font-black tracking-tighter leading-[0.9] ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
+            <h2 className={`relative text-[2.25rem] sm:text-[3.25rem] md:text-[4.5rem] lg:text-[5rem] font-serif font-black tracking-tighter leading-[0.9] ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
               Entrance <span className={theme === 'dark' ? 'text-blue-400' : 'text-[#1E3A8A]'}>Toppers</span>
             </h2>
             {/* Double Blue Swoosh Underline */}
@@ -79,14 +79,14 @@ export default function EntranceToppers({ transparentBg = false, theme = "light"
         `}</style>
 
         {/* ── Grid of Images ── */}
-        <div className={`grid grid-cols-2 gap-4 md:gap-6 min-h-[400px] ${limit === 3 ? 'md:grid-cols-3 lg:grid-cols-3 max-w-5xl mx-auto' : 'md:grid-cols-3 lg:grid-cols-4'}`} style={{ animation: 'smoothFade 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards' }}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 ${limit === 3 ? 'md:grid-cols-3 lg:grid-cols-3 max-w-5xl mx-auto' : 'md:grid-cols-3 lg:grid-cols-4'}`} style={{ animation: 'smoothFade 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards' }}>
           {displayedToppers.map((student, idx) => (
             <div 
               key={idx} 
               className={`group flex flex-col relative rounded-2xl overflow-hidden border hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${theme === 'dark' ? 'bg-slate-800 border-slate-700 hover:border-blue-500/50 shadow-lg hover:shadow-2xl hover:shadow-blue-900/20' : 'bg-white border-slate-200 hover:border-blue-400/50 shadow-lg hover:shadow-2xl hover:shadow-blue-500/10'}`}
             >
               {/* Image Section */}
-              <div className="relative w-full h-[260px] md:h-[280px] overflow-hidden bg-slate-100">
+              <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] overflow-hidden bg-slate-100">
                 <Image 
                   src={student.img} 
                   alt={student.name} 
@@ -97,28 +97,28 @@ export default function EntranceToppers({ transparentBg = false, theme = "light"
                 <div className="absolute inset-0 bg-blue-900/0 group-hover:bg-blue-900/10 transition-colors duration-500 mix-blend-overlay" />
                 
                 {/* Floating Score Badge inside Image */}
-                <div className={`absolute top-4 right-4 text-[10px] font-black px-3 py-1.5 rounded-full tracking-widest uppercase border shadow-sm transition-all duration-500 ${theme === 'dark' ? 'bg-slate-900/80 text-blue-400 border-slate-700 backdrop-blur-md' : 'bg-white/90 text-blue-700 border-white/50 backdrop-blur-md'}`}>
+                <div className={`absolute top-3 right-3 sm:top-4 sm:right-4 text-[9px] sm:text-[10px] font-black px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full tracking-widest uppercase border shadow-sm transition-all duration-500 ${theme === 'dark' ? 'bg-slate-900/80 text-blue-400 border-slate-700 backdrop-blur-md' : 'bg-white/90 text-blue-700 border-white/50 backdrop-blur-md'}`}>
                   {student.score}
                 </div>
                 
                 {/* Floating Exam Badge inside Image Bottom Left */}
-                <div className={`absolute bottom-0 left-0 text-[10px] font-black tracking-[0.2em] uppercase px-4 py-1.5 rounded-tr-xl ${theme === 'dark' ? 'bg-slate-800 text-blue-400' : 'bg-white text-blue-600'}`}>
+                <div className={`absolute bottom-0 left-0 text-[9px] sm:text-[10px] font-black tracking-[0.2em] uppercase px-3 py-1 sm:px-4 sm:py-1.5 rounded-tr-xl ${theme === 'dark' ? 'bg-slate-800 text-blue-400' : 'bg-white text-blue-600'}`}>
                   {student.exam}
                 </div>
               </div>
               
               {/* Text Data Section */}
-              <div className={`flex flex-col p-5 md:p-6 flex-1 ${theme === 'dark' ? 'bg-slate-800' : 'bg-white'}`}>
-                <h3 className={`font-serif font-bold text-xl leading-tight mb-3 ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
+              <div className={`flex flex-col p-4 sm:p-5 md:p-6 flex-1 ${theme === 'dark' ? 'bg-slate-800' : 'bg-white'}`}>
+                <h3 className={`font-serif font-bold text-base sm:text-lg md:text-xl leading-tight mb-2 sm:mb-3 ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
                   {student.name}
                 </h3>
                 
                 {/* Rank Display */}
-                <div className={`flex items-center gap-3 mt-auto pt-4 border-t border-dashed ${theme === 'dark' ? 'border-slate-700' : 'border-slate-200'}`}>
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center ${theme === 'dark' ? 'bg-blue-900/30 text-blue-400' : 'bg-blue-50 text-blue-600'}`}>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" /></svg>
+                <div className={`flex items-center gap-2.5 sm:gap-3 mt-auto pt-3 sm:pt-4 border-t border-dashed ${theme === 'dark' ? 'border-slate-700' : 'border-slate-200'}`}>
+                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center shrink-0 ${theme === 'dark' ? 'bg-blue-900/30 text-blue-400' : 'bg-blue-50 text-blue-600'}`}>
+                    <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" /></svg>
                   </div>
-                  <span className={`font-bold text-sm tracking-widest uppercase ${theme === 'dark' ? 'text-slate-300' : 'text-slate-600'}`}>{student.rank}</span>
+                  <span className={`font-bold text-xs sm:text-sm tracking-widest uppercase ${theme === 'dark' ? 'text-slate-300' : 'text-slate-600'}`}>{student.rank}</span>
                 </div>
               </div>
             </div>

@@ -53,7 +53,7 @@ export default function AchievementsHero() {
       </div>
 
       {/* ── Content ── */}
-      <div className="relative z-10 w-[90vw] mx-auto px-6 text-center pt-16">
+      <div className="relative z-10 w-[92vw] sm:w-[90vw] mx-auto px-2 sm:px-6 text-center mt-20 md:mt-28">
         {/* Breadcrumb */}
         <nav
           className={`flex items-center justify-center gap-2 mb-6 transition-all duration-700 ${
@@ -81,7 +81,7 @@ export default function AchievementsHero() {
           }`}
           style={{ transitionDelay: "150ms" }}
         >
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-serif font-bold text-white tracking-tight leading-[0.95] mb-2">
+          <h1 className="text-[2.5rem] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white tracking-tight mb-2">
             Our Achievements
           </h1>
           {/* Double swoosh underline */}
@@ -114,7 +114,7 @@ export default function AchievementsHero() {
 
         {/* Subtitle */}
         <p
-          className={`text-blue-100/80 mt-10 text-sm md:text-base lg:text-lg max-w-2xl mx-auto font-serif italic transition-all duration-700 ${
+          className={`text-blue-100/80 mt-8 md:mt-10 text-[15px] sm:text-sm md:text-base lg:text-lg max-w-2xl mx-auto font-serif italic transition-all duration-700 ${
             loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
           style={{ transitionDelay: "350ms" }}
