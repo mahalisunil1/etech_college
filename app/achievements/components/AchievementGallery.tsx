@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { createPortal } from "react-dom";
+import UniversalLightbox from "../../components/UniversalLightbox";
 
 const galleryImages = [
   { id: 1, src: "/new/AWARDS & CEREMONIES/DSC_7614.webp", alt: "State Level Felicitation 2026" },
@@ -15,36 +15,15 @@ const galleryImages = [
 ];
 
 export default function AchievementGallery() {
+
   const [mounted, setMounted] = useState(false);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
 
   useEffect(() => {
     setMounted(true);
-    
-    // Keyboard navigation for Lightbox
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (selectedIdx === null) return;
-      if (e.key === "Escape") setSelectedIdx(null);
-      if (e.key === "ArrowRight") setSelectedIdx((prev) => (prev! + 1) % galleryImages.length);
-      if (e.key === "ArrowLeft") setSelectedIdx((prev) => (prev! - 1 + galleryImages.length) % galleryImages.length);
-    };
+  }, []);
 
-    
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIdx]);
-
-  // Lock body scroll when modal is open
-  useEffect(() => {
-    if (selectedIdx !== null) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [selectedIdx]);
+  // Lock body scroll when modal is open handled by UniversalLightbox
 
   return (
     <div id="awards" className="w-full bg-[#0f1e45] py-20 lg:py-32 relative text-white">
@@ -99,65 +78,21 @@ export default function AchievementGallery() {
         </div>
       </div>
 
-      {/* ── LIGHTBOX MODAL ── */}
-      {selectedIdx !== null && mounted && createPortal(
-        <div 
-          className="fixed inset-0 flex items-center justify-center bg-[#0f1e45]/98 backdrop-blur-md p-4 animate-fadeIn"
-          style={{ zIndex: 999999, touchAction: 'none' }}
-          onWheel={(e) => e.stopPropagation()}
-          onTouchMove={(e) => e.stopPropagation()}
-        >
-          {/* Close Button */}
-          <button 
-            className="absolute top-6 right-6 w-12 h-12 bg-white/10 hover:bg-[#fbbf24] text-white hover:text-slate-900 rounded-full flex items-center justify-center transition-colors z-50"
-            onClick={() => setSelectedIdx(null)}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Prev Button */}
-          <button 
-            className="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 hover:bg-[#fbbf24] text-white hover:text-slate-900 rounded-full flex items-center justify-center transition-colors z-50 hidden md:flex"
-            onClick={(e) => {
-              e.stopPropagation();
-              setSelectedIdx((prev) => (prev! - 1 + galleryImages.length) % galleryImages.length);
-            }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          {/* Next Button */}
-          <button 
-            className="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 hover:bg-[#fbbf24] text-white hover:text-slate-900 rounded-full flex items-center justify-center transition-colors z-50 hidden md:flex"
-            onClick={(e) => {
-              e.stopPropagation();
-              setSelectedIdx((prev) => (prev! + 1) % galleryImages.length);
-            }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Image Container */}
-          <div className="relative w-full max-w-6xl max-h-[85vh] flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
-            <Image src={galleryImages[selectedIdx].src} 
-              alt={galleryImages[selectedIdx].alt}
-              className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl animate-scaleIn"
-             width={800} height={800} unoptimized={false} />
-            
-            {/* Image Counter */}
-            <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 text-white/70 font-medium tracking-widest text-sm bg-black/40 px-4 py-1.5 rounded-full backdrop-blur-md">
-              {selectedIdx + 1} / {galleryImages.length}
-            </div>
-          </div>
-        </div>,
-        document.body
-      )}
+      <UniversalLightbox
+        isOpen={selectedIdx !== null}
+        onClose={() => setSelectedIdx(null)}
+        image={
+          selectedIdx !== null
+            ? {
+                src: galleryImages[selectedIdx].src,
+                label: galleryImages[selectedIdx].alt,
+              }
+            : null
+        }
+        showNavigation={true}
+        onNext={() => setSelectedIdx((prev) => (prev !== null ? (prev + 1) % galleryImages.length : 0))}
+        onPrev={() => setSelectedIdx((prev) => (prev !== null ? (prev - 1 + galleryImages.length) % galleryImages.length : 0))}
+      />
     </div>
   );
 }

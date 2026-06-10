@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import UniversalLightbox from "../../components/UniversalLightbox";
 
 const showcaseCategories = [
   {
@@ -123,36 +124,11 @@ export default function EntranceGallery() {
 
       </div>
 
-      {/* ── LIGHTBOX MODAL ── */}
-      {selectedImg !== null && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0d1526]/95 backdrop-blur-md animate-fadeIn"
-          onClick={() => setSelectedImg(null)}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-10 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); setSelectedImg(null); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Image */}
-          <div
-            className="animate-scaleIn flex flex-col items-center justify-center max-w-[90vw] max-h-[85vh]"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image src={selectedImg.src}
-              alt={selectedImg.label}
-              className="max-h-[75vh] object-contain rounded-xl shadow-2xl bg-white p-2"
-             width={800} height={800} unoptimized={false} />
-            <h4 className="text-white text-lg font-bold mt-4 text-center">{selectedImg.label}</h4>
-            <p className="text-slate-400 text-sm mt-1 text-center max-w-xl">{selectedImg.desc}</p>
-          </div>
-        </div>
-      )}
+      <UniversalLightbox
+        isOpen={selectedImg !== null}
+        onClose={() => setSelectedImg(null)}
+        image={selectedImg}
+      />
     </section>
   );
 }

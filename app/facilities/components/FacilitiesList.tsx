@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
+import UniversalLightbox from "../../components/UniversalLightbox";
 
 interface Facility {
   id: string;
@@ -727,66 +728,22 @@ export default function FacilitiesList() {
 
       </div>
 
-      {/* ── MODAL LIGHTBOX ── */}
-      {modalImages !== null && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0d1526]/95 backdrop-blur-md animate-fadeIn"
-          onClick={() => setModalImages(null)}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); setModalImages(null); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Prev Button */}
-          {modalImages.length > 1 && (
-            <button
-              className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-              onClick={(e) => {
-                e.stopPropagation();
-                setActiveModalIdx((prev) => (prev - 1 + modalImages.length) % modalImages.length);
-              }}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-          )}
-
-          {/* Next Button */}
-          {modalImages.length > 1 && (
-            <button
-              className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-              onClick={(e) => {
-                e.stopPropagation();
-                setActiveModalIdx((prev) => (prev + 1) % modalImages.length);
-              }}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-          )}
-
-          {/* Image */}
-          <div
-            className="animate-scaleIn flex flex-col items-center justify-center max-w-[90vw] max-h-[85vh]"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image src={modalImages[activeModalIdx].src}
-              alt={modalImages[activeModalIdx].label}
-              className="max-h-[75vh] object-contain rounded-xl shadow-2xl bg-white p-2"
-             width={800} height={800} unoptimized={false} />
-            <h4 className="text-white text-lg font-bold mt-4 text-center">{modalImages[activeModalIdx].label}</h4>
-            <span className="text-slate-400 text-xs mt-1 uppercase tracking-[0.25em] font-medium">{modalTitle}</span>
-          </div>
-        </div>
-      )}
+      <UniversalLightbox
+        isOpen={modalImages !== null}
+        onClose={() => setModalImages(null)}
+        image={
+          modalImages !== null && modalImages[activeModalIdx]
+            ? {
+                src: modalImages[activeModalIdx].src,
+                label: modalImages[activeModalIdx].label,
+                desc: modalTitle,
+              }
+            : null
+        }
+        showNavigation={modalImages !== null && modalImages.length > 1}
+        onNext={() => setActiveModalIdx((prev) => (prev + 1) % (modalImages?.length || 1))}
+        onPrev={() => setActiveModalIdx((prev) => (prev - 1 + (modalImages?.length || 1)) % (modalImages?.length || 1))}
+      />
     </div>
   );
 }

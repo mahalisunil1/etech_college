@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import UniversalLightbox from '../../components/UniversalLightbox';
 import { useState, useEffect, useCallback } from "react";
 
 interface GalleryItem {
@@ -306,69 +307,23 @@ export default function GalleryGrid() {
             </div>
           )}
         </div>
+        <UniversalLightbox
+        isOpen={selectedIdx !== null}
+        onClose={() => setSelectedIdx(null)}
+        image={
+          selectedIdx !== null && filteredImages[selectedIdx]
+            ? {
+                src: filteredImages[selectedIdx].src,
+                label: filteredImages[selectedIdx].alt,
+                desc: `${filteredImages[selectedIdx].year} • ${categories.find((c) => c.id === filteredImages[selectedIdx].category)?.name}`,
+              }
+            : null
+        }
+        showNavigation={true}
+        onNext={goNext}
+        onPrev={goPrev}
+      />
       </section>
-
-      {/* ── MODAL LIGHTBOX ── */}
-      {selectedIdx !== null && filteredImages[selectedIdx] && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0f1e45]/96 backdrop-blur-md animate-fadeIn"
-          onClick={() => setSelectedIdx(null)}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); setSelectedIdx(null); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Prev Button */}
-          <button
-            className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); goPrev(); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          {/* Next Button */}
-          <button
-            className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); goNext(); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Image */}
-          <div
-            className="animate-scaleIn flex flex-col items-center justify-center max-w-[90vw] max-h-[85vh]"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image src={filteredImages[selectedIdx].src}
-              alt={filteredImages[selectedIdx].alt}
-              className="max-h-[72vh] object-contain rounded-xl shadow-2xl bg-white p-2"
-             width={800} height={800} unoptimized={false} />
-            <span className="text-white text-base font-semibold mt-4 text-center">{filteredImages[selectedIdx].alt}</span>
-            <div className="flex items-center gap-2 mt-1">
-              <span className="text-xs font-bold text-[#fbbf24] uppercase tracking-widest">{filteredImages[selectedIdx].year}</span>
-              <span className="text-white/40 text-xs font-bold">•</span>
-              <span className="text-white/60 text-xs font-bold uppercase tracking-widest">
-                {categories.find(c => c.id === filteredImages[selectedIdx].category)?.name}
-              </span>
-            </div>
-          </div>
-
-          {/* Counter */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70 text-sm font-bold tracking-widest bg-black/30 px-4 py-1 rounded-full">
-            {selectedIdx + 1} / {filteredImages.length}
-          </div>
-        </div>
-      )}
     </>
   );
 }

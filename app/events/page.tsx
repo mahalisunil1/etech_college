@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+import UniversalLightbox from "../components/UniversalLightbox";
 import ScrollReveal from "../components/ScrollReveal";
 
 const eventsData = [
@@ -120,30 +121,6 @@ export default function EventsPage() {
 
   const selectedEvent = eventsData.find(e => e.id === selectedEventId);
 
-  const handleKey = (e: KeyboardEvent) => {
-    if (selectedEventId === null || !selectedEvent) return;
-    if (e.key === "Escape") {
-      setSelectedEventId(null);
-    } else if (e.key === "ArrowRight") {
-      setActiveImgIdx((prev) => (prev + 1) % selectedEvent.images.length);
-    } else if (e.key === "ArrowLeft") {
-      setActiveImgIdx((prev) => (prev - 1 + selectedEvent.images.length) % selectedEvent.images.length);
-    }
-  };
-
-  useEffect(() => {
-    if (selectedEventId !== null) {
-      document.body.style.overflow = "hidden";
-      window.addEventListener("keydown", handleKey);
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-      window.removeEventListener("keydown", handleKey);
-    };
-  }, [selectedEventId, selectedEvent]);
-
   return (
     <div className="min-h-screen bg-[#f8fafc] font-sans">
       <ScrollReveal />
@@ -233,73 +210,22 @@ export default function EventsPage() {
         </div>
       </section>
 
-      {/* ── IMAGE LIGHTBOX SLIDER ── */}
-      {selectedEventId !== null && selectedEvent && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0d1526]/96 backdrop-blur-md animate-fadeIn"
-          onClick={() => setSelectedEventId(null)}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); setSelectedEventId(null); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Prev Button */}
-          <button
-            className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation();
-              setActiveImgIdx((prev) => (prev - 1 + selectedEvent.images.length) % selectedEvent.images.length);
-            }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          {/* Next Button */}
-          <button
-            className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-50 cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation();
-              setActiveImgIdx((prev) => (prev + 1) % selectedEvent.images.length);
-            }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Slider Content */}
-          <div
-            className="relative w-full max-w-5xl max-h-[80vh] flex flex-col items-center justify-center p-4"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="relative aspect-[3/2] w-full max-h-[68vh] overflow-hidden flex items-center justify-center">
-              <Image src={selectedEvent.images[activeImgIdx].src}
-                alt={selectedEvent.images[activeImgIdx].alt}
-                className="max-h-full max-w-full object-contain rounded-xl shadow-2xl bg-white p-2 animate-scaleIn"
-               width={800} height={800} unoptimized={false} />
-            </div>
-            <h4 className="text-white text-base md:text-lg font-bold mt-6 text-center max-w-2xl px-4">
-              {selectedEvent.images[activeImgIdx].alt}
-            </h4>
-            <span className="text-slate-400 text-xs mt-2 uppercase tracking-[0.25em] font-medium">
-              {selectedEvent.title}
-            </span>
-
-            {/* Counter */}
-            <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 text-white/70 text-sm font-semibold tracking-widest bg-black/40 px-5 py-1.5 rounded-full backdrop-blur-sm border border-white/5">
-              {activeImgIdx + 1} / {selectedEvent.images.length}
-            </div>
-          </div>
-        </div>
-      )}
+      <UniversalLightbox
+        isOpen={selectedEventId !== null && selectedEvent !== undefined}
+        onClose={() => setSelectedEventId(null)}
+        image={
+          selectedEvent !== undefined && selectedEvent.images[activeImgIdx]
+            ? {
+                src: selectedEvent.images[activeImgIdx].src,
+                label: selectedEvent.images[activeImgIdx].alt,
+                desc: selectedEvent.title,
+              }
+            : null
+        }
+        showNavigation={selectedEvent !== undefined && selectedEvent.images.length > 1}
+        onNext={() => setActiveImgIdx((prev) => (prev + 1) % (selectedEvent?.images.length || 1))}
+        onPrev={() => setActiveImgIdx((prev) => (prev - 1 + (selectedEvent?.images.length || 1)) % (selectedEvent?.images.length || 1))}
+      />
     </div>
   );
 }

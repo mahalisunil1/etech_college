@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { entranceData } from "./EntranceResultsData";
+import UniversalLightbox from "../../components/UniversalLightbox";
 
 const results = [
   {
@@ -131,8 +132,6 @@ export default function EntranceResults() {
           <div className="text-center mb-10">
             <h3 className="text-3xl font-serif font-bold text-slate-900 mb-6">Explore Our Star Achievers</h3>
             
-            {/* No Top Level Tabs anymore */}
-
             {/* Sub Tabs for Results */}
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8 animate-fadeIn">
               <div className="flex bg-slate-100 p-1 rounded-full">
@@ -228,36 +227,11 @@ export default function EntranceResults() {
 
       </div>
 
-      {/* ── LIGHTBOX MODAL ── */}
-      {selectedImg !== null && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0d1526]/95 backdrop-blur-md animate-fadeIn"
-          onClick={() => setSelectedImg(null)}
-        >
-          <button
-            className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-[#fbbf24] hover:text-[#0f1e45] hover:border-[#fbbf24] transition-all duration-200 z-10 cursor-pointer"
-            onClick={(e) => { e.stopPropagation(); setSelectedImg(null); }}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          <div
-            className="animate-scaleIn flex items-center justify-center max-w-[95vw] max-h-[90vh] relative w-full h-full p-4 md:p-8"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image 
-              src={selectedImg}
-              alt="Expanded view"
-              fill
-              className="object-contain drop-shadow-2xl"
-              unoptimized={false} 
-            />
-          </div>
-        </div>
-      )}
-
+      <UniversalLightbox
+        isOpen={selectedImg !== null}
+        onClose={() => setSelectedImg(null)}
+        image={selectedImg}
+      />
     </section>
   );
 }
