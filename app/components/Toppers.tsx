@@ -4,18 +4,28 @@ import React from "react";
 import Image from "next/image";
 
 const toppers = [
-  { rank: 1, name: "PARHTA SARATHI KHILAR", score: 598, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/01 - PARHTA SARATHI KHILAR - 598.webp", rollNo: "ET26-001" },
-  { rank: 2, name: "SUJIT KUMAR RANA", score: 593, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/02 - SUJIT KUMAR RANA - 593.webp", rollNo: "ET26-002" },
-  { rank: 3, name: "SWABHIMAN BISWAL", score: 593, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/03 - SWABHIMAN BISWAL - 593.webp", rollNo: "ET26-003" },
-  { rank: 4, name: "SUMITRA PRADHAN", score: 592, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/04 - SUMITRA PRADHAN - 592.webp", rollNo: "ET26-004" },
-  { rank: 5, name: "BINAYAK PATRA", score: 590, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/05 - BINAYAK PATRA - 590.webp", rollNo: "ET26-005" },
-  { rank: 6, name: "SMRUTI RANJAN SAHOO", score: 589, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/06 - SMRUTI RANJAN SAHOO - 589.webp", rollNo: "ET26-006" },
-  { rank: 7, name: "SUPRIYA SAMAL", score: 589, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/07 - SUPRIYA SAMAL - 589.webp", rollNo: "ET26-007" },
-  { rank: 8, name: "SOURAV ROUT", score: 585, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/08 - SOURAV ROUT - 585.webp", rollNo: "ET26-008" },
-  { rank: 9, name: "DEBAPRASAD SAHOO", score: 584, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/09 - DEBAPRASAD SAHOO - 584.webp", rollNo: "ET26-009" },
-  { rank: 10, name: "SUDARSHAN SAHOO", score: 584, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/10 - SUDARSHAN SAHOO - 584.webp", rollNo: "ET26-010" },
-  { rank: 11, name: "JITEN BEHERA", score: 583, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/11 - JITEN BEHERA - 583.webp", rollNo: "ET26-011" },
-  { rank: 12, name: "PRATHAMESH SAHOO", score: 582, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/12 - PRATHAMESH SAHOO - 582.webp", rollNo: "ET26-012" },
+  { rank: 1, name: "PARHTA SARATHI KHILAR", score: 598, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/01 - PARHTA SARATHI KHILAR - 598.webp", rollNo: "349DB213", stateRank: 1 },
+  { rank: 2, name: "SUJIT KUMAR RANA", score: 593, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/02 - SUJIT KUMAR RANA - 593.webp", rollNo: "349DB038", stateRank: 6 },
+  { rank: 3, name: "SWABHIMAN BISWAL", score: 593, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/03 - SWABHIMAN BISWAL - 593.webp", rollNo: "349DB245", stateRank: 6 },
+  { rank: 4, name: "SUMITRA PRADHAN", score: 592, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/04 - SUMITRA PRADHAN - 592.webp", rollNo: "349DB225", stateRank: 7 },
+  { rank: 5, name: "BINAYAK PATRA", score: 590, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/05 - BINAYAK PATRA - 590.webp", rollNo: "349DB167", stateRank: 9 },
+  { rank: 6, name: "SMRUTI RANJAN SAHOO", score: 589, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/06 - SMRUTI RANJAN SAHOO - 589.webp", rollNo: "349DB141", stateRank: 10 },
+  { rank: 7, name: "SUPRIYA SAMAL", score: 589, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/07 - SUPRIYA SAMAL - 589.webp", rollNo: "349DB020", stateRank: 10 },
+  { rank: 8, name: "SOURAV ROUT", score: 585, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/08 - SOURAV ROUT - 585.webp", rollNo: "349DB249", stateRank: 14 },
+  { rank: 9, name: "DEBAPRASAD SAHOO", score: 584, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/09 - DEBAPRASAD SAHOO - 584.webp", rollNo: "349DB024", stateRank: 15 },
+  { rank: 10, name: "SUDARSHAN SAHOO", score: 584, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/10 - SUDARSHAN SAHOO - 584.webp", rollNo: "349DB193", stateRank: 15 },
+  { rank: 11, name: "JITEN BEHERA", score: 583, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/11 - JITEN BEHERA - 583.webp", rollNo: "349DB256", stateRank: 16 },
+  { rank: 12, name: "PRATHAMESH SAHOO", score: 582, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/12 - PRATHAMESH SAHOO - 582.webp", rollNo: "349DB025", stateRank: 17 },
+  { rank: 13, name: "SMRUTIPRAJNA TRIPATHY", score: 581, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/13 - SMRUTIPRAJNA TRIPATHY - 581.webp", rollNo: "349DB173", stateRank: 18 },
+  { rank: 14, name: "JASMAN SAHOO", score: 581, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/14 - JASMAN SAHOO - 581.webp", rollNo: "349DB261", stateRank: 18 },
+  { rank: 15, name: "BIMAL KUMAR BAI", score: 580, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/15 - BIMAL KUMAR BAI - 580.webp", rollNo: "349DB143", stateRank: 19 },
+  { rank: 16, name: "CHIRANJIB PAL", score: 579, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/16 - CHIRANJIB PAL - 579.webp", rollNo: "349DB013", stateRank: 20 },
+  { rank: 17, name: "SHUBHRAJIT MUDULI", score: 579, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/17 - SHUBHRAJIT MUDULI - 579.webp", rollNo: "349DB034", stateRank: 20 },
+  { rank: 18, name: "SAMBIT SAHOO", score: 579, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/18 - SAMBIT SAHOO - 579.webp", rollNo: "349DB088", stateRank: 20 },
+  { rank: 19, name: "ABHISHEK BEHERA", score: 579, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/19 - ABHISHEK BEHERA - 579.webp", rollNo: "349DB145", stateRank: 20 },
+  { rank: 20, name: "PRAGYAN PRIYADARSHINI ROUL", score: 579, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/20 - PRAGYAN PRIYADARSHINI ROUL - 579.webp", rollNo: "349DB212", stateRank: 20 },
+  { rank: 21, name: "TUSHAR RANJAN PRADHAN", score: 572, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/39 - TUSHAR RANJAN PRADHAN - 572.webp", rollNo: "349DB236" },
+  { rank: 22, name: "STHITIPRAGYAN DASH", score: 568, img: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/50 - STHITIPRAGYAN DASH - 568.webp", rollNo: "349DB237" },
 ];
 
 export default function Toppers() {
@@ -102,7 +112,8 @@ export default function Toppers() {
               </div>
               <div className="text-center pb-4">
                 <h3 className="text-xl font-bold text-slate-100 mb-1">{top3[1].name}</h3>
-                <div className="text-xs text-slate-400 font-mono mb-2">Roll No: {top3[1].rollNo}</div>
+                <div className="text-xs text-slate-400 font-mono mb-1">CHSE Roll: {top3[1].rollNo}</div>
+                {top3[1].stateRank && <div className="text-sm font-bold text-blue-300 mb-2">State Rank: {top3[1].stateRank}</div>}
                 <div className="text-3xl font-black text-blue-400">{top3[1].score}</div>
               </div>
             </div>
@@ -122,7 +133,8 @@ export default function Toppers() {
               </div>
               <div className="text-center pb-6">
                 <h3 className="text-2xl font-bold text-white mb-1">{top3[0].name}</h3>
-                <div className="text-xs text-slate-400 font-mono mb-2">Roll No: {top3[0].rollNo}</div>
+                <div className="text-xs text-slate-400 font-mono mb-1">CHSE Roll: {top3[0].rollNo}</div>
+                {top3[0].stateRank && <div className="text-sm font-bold text-yellow-300 mb-2">State Rank: {top3[0].stateRank}</div>}
                 <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-yellow-700">{top3[0].score}</div>
                 <div className="mt-3 inline-flex items-center gap-2 px-4 py-1.5 bg-yellow-500/10 border border-yellow-500/30 rounded-full shadow-[0_0_15px_rgba(234,179,8,0.2)]">
                   <span className="text-lg">👑</span>
@@ -147,7 +159,8 @@ export default function Toppers() {
               </div>
               <div className="text-center pb-4">
                 <h3 className="text-xl font-bold text-slate-100 mb-1">{top3[2].name}</h3>
-                <div className="text-xs text-slate-400 font-mono mb-2">Roll No: {top3[2].rollNo}</div>
+                <div className="text-xs text-slate-400 font-mono mb-1">CHSE Roll: {top3[2].rollNo}</div>
+                {top3[2].stateRank && <div className="text-sm font-bold text-amber-300 mb-2">State Rank: {top3[2].stateRank}</div>}
                 <div className="text-3xl font-black text-blue-400">{top3[2].score}</div>
               </div>
             </div>
@@ -176,7 +189,8 @@ export default function Toppers() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-sm font-bold text-slate-200 line-clamp-1">{student.name}</span>
-                    <span className="text-[10px] text-slate-500 font-mono">Roll: {student.rollNo}</span>
+                    <span className="text-[10px] text-slate-500 font-mono">CHSE Roll: {student.rollNo}</span>
+                    {student.stateRank && <span className="text-[10px] font-bold text-blue-300">State Rank: {student.stateRank}</span>}
                     <span className="text-lg font-black text-blue-400 leading-none mt-1">{student.score}</span>
                   </div>
                 </div>

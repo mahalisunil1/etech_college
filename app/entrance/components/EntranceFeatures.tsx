@@ -41,7 +41,7 @@ export default function EntranceFeatures() {
             
             {/* Minimal Contextual Image */}
             <div className="hidden lg:block relative w-full h-[280px] rounded-xl overflow-hidden border border-slate-200 shadow-sm">
-                <Image src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Study Environment" className="w-full h-full object-cover opacity-90 grayscale-[20%]"  width={800} height={800} unoptimized={false} />
+                <Image src="/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7958.webp" alt="Study Environment" className="w-full h-full object-cover opacity-90 grayscale-[20%]"  width={800} height={800} unoptimized={false} />
             </div>
           </div>
 

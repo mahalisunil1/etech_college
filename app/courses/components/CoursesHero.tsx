@@ -91,8 +91,7 @@ export default function CoursesHero() {
           }`}
           style={{ transitionDelay: "700ms" }}
         >
-          Precision-engineered academic programs for CHSE, CBSE, and NEET — built to deliver
-          exceptional results and shape tomorrow&apos;s leaders.
+          Result-oriented academic programs for CHSE, CBSE, and NEET, delivering exceptional results and shaping tomorrow&apos;s leaders.
         </p>
       </div>
 

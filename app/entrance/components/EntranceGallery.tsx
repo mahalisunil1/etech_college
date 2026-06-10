@@ -8,16 +8,20 @@ const showcaseCategories = [
     id: "classrooms",
     name: "Classrooms",
     items: [
-      { src: "/new/Gallery/2022/DSC_2211.webp", label: "Smart Classroom Lecture Session", desc: "Interactive digital panels making scientific lectures engaging." },
-      { src: "/new/Gallery/2022/DSC_2002.webp", label: "Standard AC Classroom", desc: "Air-conditioned, spacious learning environments built for peak focus." }
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE CLASS ROOM/DSC_7885.webp", label: "Interactive Classroom", desc: "Highly focused academic environment." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE CLASS ROOM/DSC_7890.webp", label: "Entrance Preparation Layout", desc: "Spacious learning spaces designed for peak focus." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/SMART CLASS ROOM/DSC_7887.webp", label: "Smart Classroom Tech", desc: "Advanced digital panels for dynamic learning." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/SMART CLASS ROOM/DSC_7889.webp", label: "Modern Smart Class", desc: "Interactive digital panels making scientific lectures engaging." }
     ]
   },
   {
     id: "study-exams",
     name: "Study & Exams",
     items: [
-      { src: "/CAMPUS/DSC_0005(1).webp", label: "24/7 Silent Study Room", desc: "Quiet study zones designed for individual preparation and revision." },
-      { src: "/CAMPUS/CLASSROOM(2).webp", label: "State-of-the-Art Exam Hall", desc: "Spacious exam halls simulating national CBT and written test environments." }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7957.webp", label: "Library & Study Zone", desc: "Quiet study zones designed for individual preparation and revision." },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7960.webp", label: "Resource Center", desc: "Extensive collection of reference materials." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7896.webp", label: "State-of-the-Art Exam Hall", desc: "Spacious exam halls simulating national test environments." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7897.webp", label: "CBT Practice", desc: "Rigorous testing environments to build exam temperment." }
     ]
   },
   {
@@ -31,7 +35,7 @@ const showcaseCategories = [
     id: "doubt-clear",
     name: "Doubt Desk",
     items: [
-      { src: "/new/Gallery/2022/DSC_2319.webp", label: "One-to-One Doubt Clearance Desk", desc: "Personalized faculty attention outside lectures to clear complex topics." }
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ONE TO ONE DOUBT CLEAR.webp", label: "One-to-One Doubt Clearance Desk", desc: "Personalized faculty attention outside lectures to clear complex topics." }
     ]
   },
   {

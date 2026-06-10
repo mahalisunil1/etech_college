@@ -114,9 +114,9 @@ export default function Management() {
               <span className="text-blue-400 font-semibold">
                 100% result in AHS Examinations since 2013
               </span>
-              , reaching at the glory of being the{" "}
+              , reaching at the glory of being{" "}
               <span className="text-blue-400 font-semibold">
-                2nd leading Higher Secondary School of Odisha
+                one of the leading Higher Secondary Schools of Odisha
               </span>
               .
             </p>
@@ -132,11 +132,11 @@ export default function Management() {
                 </div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-5 backdrop-blur-sm">
-                <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1 font-serif">
-                  #2
+                <div className="text-xl md:text-2xl font-bold text-blue-400 mb-1 font-serif tracking-wide">
+                  Top Tier
                 </div>
                 <div className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider">
-                  Leading H.S. in Odisha
+                  Institution in Odisha
                 </div>
               </div>
             </div>
@@ -154,20 +154,6 @@ export default function Management() {
               <div className="absolute bottom-4 left-5">
                 <span className="text-white/90 text-xs font-bold tracking-[0.15em] uppercase">
                   Campus Infrastructure
-                </span>
-              </div>
-            </div>
-
-            {/* Management meeting */}
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
-              <Image src="/about-us/e-tech/about-us-image-four.webp"
-                alt="Management Meeting"
-                className="w-full h-[200px] md:h-[220px] object-cover transition-transform duration-[1.5s] group-hover:scale-105"
-               width={800} height={800} unoptimized={false} />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
-              <div className="absolute bottom-4 left-5">
-                <span className="text-white/90 text-xs font-bold tracking-[0.15em] uppercase">
-                  Academic Leadership
                 </span>
               </div>
             </div>

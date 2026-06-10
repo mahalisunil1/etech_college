@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 
 const highlightBanners = [
   { src: "/new/Glorious Achievments/15x6 - etech.webp", alt: "State Level Board Toppers Highlights" },
@@ -15,6 +16,12 @@ const highlightBanners = [
 
 export default function CollegeHighlights() {
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const goNext = () => {
     if (selectedIdx !== null) setSelectedIdx((selectedIdx + 1) % highlightBanners.length);
@@ -72,9 +79,9 @@ export default function CollegeHighlights() {
       </div>
 
       {/* ── LIGHTBOX MODAL ── */}
-      {selectedIdx !== null && (
+      {selectedIdx !== null && mounted && createPortal(
         <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0d1526]/95 backdrop-blur-md animate-fadeIn"
+          className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#0d1526]/95 backdrop-blur-md animate-fadeIn"
           onClick={() => setSelectedIdx(null)}
         >
           {/* Close Button */}
@@ -123,7 +130,8 @@ export default function CollegeHighlights() {
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60 text-sm font-bold tracking-widest bg-black/30 px-4 py-1 rounded-full">
             {selectedIdx + 1} / {highlightBanners.length}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </section>
   );

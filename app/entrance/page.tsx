@@ -1,8 +1,9 @@
-
 import EntranceHero from "./components/EntranceHero";
+import EntranceFeatures from "./components/EntranceFeatures";
 import WhyChooseUs from "../components/WhyChooseUs";
 import EntranceToppers from "../components/EntranceToppers";
 import EntranceResults from "./components/EntranceResults";
+import EntranceBanners from "./components/EntranceBanners";
 import EntranceGallery from "./components/EntranceGallery";
 import ScrollReveal from "../components/ScrollReveal";
 
@@ -23,9 +24,11 @@ export default function EntrancePage() {
         <div className="absolute top-[45%] left-[-10%] w-[1000px] h-[1000px] bg-indigo-500/10 rounded-full blur-[180px] pointer-events-none mix-blend-multiply" />
         <div className="absolute bottom-[10%] right-[10%] w-[600px] h-[600px] bg-cyan-400/5 rounded-full blur-[120px] pointer-events-none mix-blend-multiply" />
 
+        <EntranceFeatures />
         <WhyChooseUs />
         <EntranceToppers transparentBg={true} />
         <EntranceResults />
+        <EntranceBanners />
         <EntranceGallery />
       </div>
     </div>

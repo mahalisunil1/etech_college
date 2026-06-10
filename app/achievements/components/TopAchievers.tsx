@@ -9,29 +9,30 @@ interface Achiever {
   image: string;
   rollNo: string;
   isWomens: boolean;
+  stateRank?: number;
 }
 
 const achievers: Achiever[] = [
-  { name: "Parhta Sarathi Khilar", marks: 598, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/01 - PARHTA SARATHI KHILAR - 598.webp", rollNo: "ET26-001", isWomens: false },
-  { name: "Sujit Kumar Rana", marks: 593, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/02 - SUJIT KUMAR RANA - 593.webp", rollNo: "ET26-002", isWomens: false },
-  { name: "Swabhiman Biswal", marks: 593, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/03 - SWABHIMAN BISWAL - 593.webp", rollNo: "ET26-003", isWomens: false },
-  { name: "Sumitra Pradhan", marks: 592, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/04 - SUMITRA PRADHAN - 592.webp", rollNo: "ET26-004", isWomens: true },
-  { name: "Binayak Patra", marks: 590, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/05 - BINAYAK PATRA - 590.webp", rollNo: "ET26-005", isWomens: false },
-  { name: "Smruti Ranjan Sahoo", marks: 589, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/06 - SMRUTI RANJAN SAHOO - 589.webp", rollNo: "ET26-006", isWomens: false },
-  { name: "Supriya Samal", marks: 589, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/07 - SUPRIYA SAMAL - 589.webp", rollNo: "ET26-007", isWomens: true },
-  { name: "Sourav Rout", marks: 585, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/08 - SOURAV ROUT - 585.webp", rollNo: "ET26-008", isWomens: false },
-  { name: "Debaprasad Sahoo", marks: 584, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/09 - DEBAPRASAD SAHOO - 584.webp", rollNo: "ET26-009", isWomens: false },
-  { name: "Sudarshan Sahoo", marks: 584, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/10 - SUDARSHAN SAHOO - 584.webp", rollNo: "ET26-010", isWomens: false },
-  { name: "Jiten Behera", marks: 583, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/11 - JITEN BEHERA - 583.webp", rollNo: "ET26-011", isWomens: false },
-  { name: "Prathamesh Sahoo", marks: 582, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/12 - PRATHAMESH SAHOO - 582.webp", rollNo: "ET26-012", isWomens: false },
-  { name: "Smrutiprajna Tripathy", marks: 581, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/13 - SMRUTIPRAJNA TRIPATHY - 581.webp", rollNo: "ET26-013", isWomens: true },
-  { name: "Jasman Sahoo", marks: 581, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/14 - JASMAN SAHOO - 581.webp", rollNo: "ET26-014", isWomens: false },
-  { name: "Bimal Kumar Bai", marks: 580, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/15 - BIMAL KUMAR BAI - 580.webp", rollNo: "ET26-015", isWomens: false },
-  { name: "Chiranjib Pal", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/16 - CHIRANJIB PAL - 579.webp", rollNo: "ET26-016", isWomens: false },
-  { name: "Shubhrajit Muduli", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/17 - SHUBHRAJIT MUDULI - 579.webp", rollNo: "ET26-017", isWomens: false },
-  { name: "Sambit Sahoo", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/18 - SAMBIT SAHOO - 579.webp", rollNo: "ET26-018", isWomens: false },
-  { name: "Abhishek Behera", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/19 - ABHISHEK BEHERA - 579.webp", rollNo: "ET26-019", isWomens: false },
-  { name: "Pragyan Priyadarshini Roul", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/20 - PRAGYAN PRIYADARSHINI ROUL - 579.webp", rollNo: "ET26-020", isWomens: true },
+  { name: "Parhta Sarathi Khilar", marks: 598, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/01 - PARHTA SARATHI KHILAR - 598.webp", rollNo: "349DB213", isWomens: false, stateRank: 1 },
+  { name: "Sujit Kumar Rana", marks: 593, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/02 - SUJIT KUMAR RANA - 593.webp", rollNo: "349DB038", isWomens: false, stateRank: 6 },
+  { name: "Swabhiman Biswal", marks: 593, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/03 - SWABHIMAN BISWAL - 593.webp", rollNo: "349DB245", isWomens: false, stateRank: 6 },
+  { name: "Sumitra Pradhan", marks: 592, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/04 - SUMITRA PRADHAN - 592.webp", rollNo: "349DB225", isWomens: true, stateRank: 7 },
+  { name: "Binayak Patra", marks: 590, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/05 - BINAYAK PATRA - 590.webp", rollNo: "349DB167", isWomens: false, stateRank: 9 },
+  { name: "Smruti Ranjan Sahoo", marks: 589, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/06 - SMRUTI RANJAN SAHOO - 589.webp", rollNo: "349DB141", isWomens: false, stateRank: 10 },
+  { name: "Supriya Samal", marks: 589, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/07 - SUPRIYA SAMAL - 589.webp", rollNo: "349DB020", isWomens: true, stateRank: 10 },
+  { name: "Sourav Rout", marks: 585, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/08 - SOURAV ROUT - 585.webp", rollNo: "349DB249", isWomens: false, stateRank: 14 },
+  { name: "Debaprasad Sahoo", marks: 584, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/09 - DEBAPRASAD SAHOO - 584.webp", rollNo: "349DB024", isWomens: false, stateRank: 15 },
+  { name: "Sudarshan Sahoo", marks: 584, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/10 - SUDARSHAN SAHOO - 584.webp", rollNo: "349DB193", isWomens: false, stateRank: 15 },
+  { name: "Jiten Behera", marks: 583, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/11 - JITEN BEHERA - 583.webp", rollNo: "349DB256", isWomens: false, stateRank: 16 },
+  { name: "Prathamesh Sahoo", marks: 582, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/12 - PRATHAMESH SAHOO - 582.webp", rollNo: "349DB025", isWomens: false, stateRank: 17 },
+  { name: "Smrutiprajna Tripathy", marks: 581, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/13 - SMRUTIPRAJNA TRIPATHY - 581.webp", rollNo: "349DB173", isWomens: true, stateRank: 18 },
+  { name: "Jasman Sahoo", marks: 581, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/14 - JASMAN SAHOO - 581.webp", rollNo: "349DB261", isWomens: false, stateRank: 18 },
+  { name: "Bimal Kumar Bai", marks: 580, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/15 - BIMAL KUMAR BAI - 580.webp", rollNo: "349DB143", isWomens: false, stateRank: 19 },
+  { name: "Chiranjib Pal", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/16 - CHIRANJIB PAL - 579.webp", rollNo: "349DB013", isWomens: false, stateRank: 20 },
+  { name: "Shubhrajit Muduli", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/17 - SHUBHRAJIT MUDULI - 579.webp", rollNo: "349DB034", isWomens: false, stateRank: 20 },
+  { name: "Sambit Sahoo", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/18 - SAMBIT SAHOO - 579.webp", rollNo: "349DB088", isWomens: false, stateRank: 20 },
+  { name: "Abhishek Behera", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/19 - ABHISHEK BEHERA - 579.webp", rollNo: "349DB145", isWomens: false, stateRank: 20 },
+  { name: "Pragyan Priyadarshini Roul", marks: 579, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/20 - PRAGYAN PRIYADARSHINI ROUL - 579.webp", rollNo: "349DB212", isWomens: true, stateRank: 20 },
   { name: "Sama Sania Begum", marks: 578, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/21 - SAMA SANIA BEGUM - 578.webp", rollNo: "ET26-021", isWomens: true },
   { name: "Ananya Priyadarsini Sahoo", marks: 578, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/22 - ANANYA PRIYADARSINI SAHOO - 578.webp", rollNo: "ET26-022", isWomens: true },
   { name: "Sonali Priyadarsini Sahoo", marks: 578, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/23 - SONALI PRIYADARSINI SAHOO - 578.webp", rollNo: "ET26-023", isWomens: true },
@@ -50,7 +51,7 @@ const achievers: Achiever[] = [
   { name: "Rohan Sahoo", marks: 572, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/36 - ROHAN SAHOO - 572.webp", rollNo: "ET26-036", isWomens: false },
   { name: "Satyanarayan Pani", marks: 572, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/37 - SATYANARAYAN PANI - 572.webp", rollNo: "ET26-037", isWomens: false },
   { name: "Rajashree Rajalaxmi Sahoo", marks: 572, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/38 - RAJASHREE RAJALAXMI SAHOO - 572.webp", rollNo: "ET26-038", isWomens: true },
-  { name: "Tushar Ranjan Pradhan", marks: 572, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/39 - TUSHAR RANJAN PRADHAN - 572.webp", rollNo: "ET26-039", isWomens: false },
+  { name: "Tushar Ranjan Pradhan", marks: 572, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/39 - TUSHAR RANJAN PRADHAN - 572.webp", rollNo: "349DB236", isWomens: false },
   { name: "Rakesh Rout", marks: 571, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/40 - RAKESH ROUT - 571.webp", rollNo: "ET26-040", isWomens: false },
   { name: "Lusi Sahu", marks: 570, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/41 - LUSI SAHU - 570.webp", rollNo: "ET26-041", isWomens: true },
   { name: "Deepsita Pradhan", marks: 570, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/42 - DEEPSITA PRADHAN - 570.webp", rollNo: "ET26-042", isWomens: true },
@@ -61,7 +62,7 @@ const achievers: Achiever[] = [
   { name: "Smrutiranjan Sahu", marks: 569, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/47 - SMRUTIRANJAN SAHU - 569.webp", rollNo: "ET26-047", isWomens: false },
   { name: "Lopamudra Sahoo", marks: 569, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/48 - LOPAMUDRA SAHOO - 569.webp", rollNo: "ET26-048", isWomens: true },
   { name: "Astha Adyasha Mohanty", marks: 569, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/49 - ASTHA ADYASHA MOHANTY - 569.webp", rollNo: "ET26-049", isWomens: true },
-  { name: "Sthitipragyan Dash", marks: 568, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/50 - STHITIPRAGYAN DASH - 568.webp", rollNo: "ET26-050", isWomens: false },
+  { name: "Sthitipragyan Dash", marks: 568, image: "/RESULT/2026/90%25 ACHIEVERS PHOTOS/50 - STHITIPRAGYAN DASH - 568.webp", rollNo: "349DB237", isWomens: false },
 ];
 
 const ALPHABETS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -125,11 +126,10 @@ export default function TopAchievers() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#fbbf24]/10 rounded-full blur-2xl pointer-events-none" />
               
               <div>
-                <div className="flex justify-between items-center mb-6 relative z-10">
+                <div className="flex justify-start items-center mb-6 relative z-10">
                   <span className="px-4 py-1.5 bg-gradient-to-r from-amber-400 to-amber-600 text-slate-900 text-[10px] font-black tracking-widest uppercase rounded-full shadow-md flex items-center gap-1.5">
                     <span>👑</span> School Topper Rank 1
                   </span>
-                  <span className="text-slate-400 font-mono text-[10px] font-bold">Global Rank {globalRank.toString().padStart(2, "0")}</span>
                 </div>
 
                 <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden mb-6 border-2 border-slate-800 bg-slate-800 shadow-inner">
@@ -153,7 +153,8 @@ export default function TopAchievers() {
                   <h4 className="text-2xl font-bold text-white font-serif tracking-tight mb-1 group-hover:text-[#fbbf24] transition-colors duration-300">
                     {topper.name}
                   </h4>
-                  <p className="text-slate-400 font-mono text-xs uppercase tracking-wider mb-2">Roll No: {topper.rollNo}</p>
+                  <p className="text-slate-400 font-mono text-xs uppercase tracking-wider mb-1">CHSE Roll: {topper.rollNo}</p>
+                  {topper.stateRank && <p className="text-blue-300 font-bold text-xs uppercase tracking-wider mb-2">State Rank: {topper.stateRank}</p>}
                 </div>
               </div>
 
@@ -238,10 +239,7 @@ export default function TopAchievers() {
                         className="object-cover object-top group-hover:scale-105 transition-transform duration-700 bg-slate-50"
                       />
                       
-                      {/* Badge showing Rank */}
-                      <div className="absolute top-3 left-3 bg-slate-900/90 text-white font-bold text-[9px] tracking-wider px-2.5 py-1 rounded-full shadow-sm z-20">
-                        Rank {globalRankIdx.toString().padStart(2, "0")}
-                      </div>
+                      {/* Badge showing Rank Removed as requested */}
 
                       {/* Gradient Overlay for Text Readability */}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0f1e45]/90 via-[#0f1e45]/20 to-transparent opacity-85 group-hover:opacity-95 transition-opacity duration-500 z-10" />
@@ -254,9 +252,14 @@ export default function TopAchievers() {
                         <h4 className="text-white font-serif font-bold text-base leading-tight mb-0.5">
                           {achiever.name}
                         </h4>
-                        <p className="text-blue-200/80 text-[9px] font-mono tracking-wide uppercase">
-                          Roll: {achiever.rollNo}
+                        <p className="text-blue-200/80 text-[9px] font-mono tracking-wide uppercase mb-0.5">
+                          CHSE Roll: {achiever.rollNo}
                         </p>
+                        {achiever.stateRank && (
+                          <p className="text-[#fbbf24] text-[10px] font-bold tracking-wide uppercase">
+                            State Rank: {achiever.stateRank}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>

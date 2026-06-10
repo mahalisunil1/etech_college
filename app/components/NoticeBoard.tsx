@@ -2,10 +2,11 @@ import Link from "next/link";
 
 export default function NoticeBoard() {
   const announcements = [
-    { date: "Today", text: "ADMISSIONS OPEN FOR 2026-27 - Apply Before Dec 15th", tag: "Urgent" },
-    { date: "Soon", text: "SUMMER CRASH COURSE FOR JEE/NEET STARTS APRIL 10TH", tag: "Summer" },
-    { date: "New", text: "FRESH BATCHES FOR ENTRANCE CLASSES COMMENCING NEXT WEEK", tag: "Entrance" },
-    { date: "Alert", text: "ADMISSIONS CLOSING SHORTLY FOR +2 COMMERCE & ARTS", tag: "Warning" },
+    { date: "New", text: "Admission open for CHSE 2026-27", tag: "Entrance" },
+    { date: "Closed", text: "Summer course 2026 closed", tag: "Summer" },
+    { date: "New", text: "Admission open for NEET 2026-27", tag: "Entrance" },
+    { date: "New", text: "Admission open for CBSE", tag: "Entrance" },
+    { date: "Alert", text: "We don’t have arts and commerce", tag: "Warning" },
   ];
 
   const getTagStyle = (tag: string) => {

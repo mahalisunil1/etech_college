@@ -5,18 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 const allToppers = [
-  { name: "ASHISH KUMAR SAHOO", rank: "AIR 12", score: "715/720", exam: "NEET", img: "/RESULT/2025/E-TECH/01 - ASHISH KUMAR SAHOO - 584.webp" },
-  { name: "S.RAMESWAREE NANDA", rank: "AIR 45", score: "710/720", exam: "NEET", img: "/RESULT/2025/E-TECH/02 - S.RAMESWAREE NANDA - 580.webp" },
-  { name: "DARSHAN ROUT", rank: "AIR 89", score: "705/720", exam: "NEET", img: "/RESULT/2025/E-TECH/03 - DARSHAN ROUT - 575.webp" },
-  { name: "AMBIKA PRASAD DASH", rank: "AIR 34", score: "292/300", exam: "JEE", img: "/RESULT/2025/E-TECH/04 - AMBIKA PRASAD DASH - 573.webp" },
-  { name: "ITISHREE MAJHI", rank: "AIR 89", score: "285/300", exam: "JEE", img: "/RESULT/2025/E-TECH/05 - ITISHREE MAJHI - 573.webp" },
-  { name: "SWAYAN PRAVA PANDA", rank: "AIR 145", score: "278/300", exam: "JEE", img: "/RESULT/2025/E-TECH/06 - SWAYAN PRAVA PANDA - 571.webp" },
-  { name: "TEJASWINI PRIYADARSINI", rank: "AIR 156", score: "700/720", exam: "NEET", img: "/RESULT/2025/E-TECH/07 - TEJASWINI PRIYADARSINI - 570.webp" },
-  { name: "SUBHASMITA SAHOO", rank: "AIR 234", score: "695/720", exam: "NEET", img: "/RESULT/2025/E-TECH/08 - SUBHASMITA SAHOO - 570.webp" },
-  { name: "SATYAJIT SAHOO", rank: "AIR 234", score: "272/300", exam: "JEE", img: "/RESULT/2025/E-TECH/09 - SATYAJIT SAHOO - 569.webp" },
-  { name: "RAHUL SAHOO", rank: "AIR 312", score: "265/300", exam: "JEE", img: "/RESULT/2025/E-TECH/10 - RAHUL SAHOO - 568.webp" },
-  { name: "UMAKANTA SAHOO", rank: "AIR 312", score: "690/720", exam: "NEET", img: "/RESULT/2025/E-TECH/11 - UMAKANTA SAHOO - 568.webp" },
-  { name: "PRIYAM KUMAR MALLIK", rank: "AIR 456", score: "258/300", exam: "JEE", img: "/RESULT/2025/E-TECH/12 - PRIYAM KUMAR MALLIK - 566.webp" },
+  { name: "ANIMESH SHEE", rank: "NEET 2024", score: "680", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/01 - ANIMESH SHEE - 680.webp" },
+  { name: "SWADHIN KUMAR KAR", rank: "JEE 2024", score: "99.1 %ile", exam: "JEE", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/JEE/RESULT/2024/01 - SWADHIN KUMAR KAR - 99.1.webp" },
+  { name: "SUBHAM DASH", rank: "NEET 2023", score: "657", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2023/01 - SUBHAM DASH - 657.webp" },
+  { name: "MONALISHA SAHOO", rank: "NEET 2025", score: "599", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2025/01 - MONALISHA SAHOO - 599.webp" },
+  { name: "CHANDAN SAHOO", rank: "JEE 2025", score: "97.79 %ile", exam: "JEE", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/JEE/RESULT/2025/01 - CHANDAN SAHOO _ 97.79.webp" },
+  { name: "ABHISEK PAL", rank: "NEET 2024", score: "676", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/02 - ABHISEK PAL - 676.webp" },
+  { name: "BHARAT GOURAB RAY", rank: "NEET 2024", score: "666", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/03 - BHARAT GOURAB RAY - 666.webp" },
+  { name: "SARASWETA MISHRA", rank: "NEET 2024", score: "664", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/04 - SARASWETA MISHRA - 664.webp" }
 ];
 
 export default function EntranceToppers({ transparentBg = false, theme = "light", limit, showViewAll = false }: { transparentBg?: boolean, theme?: "light" | "dark", limit?: number, showViewAll?: boolean }) {

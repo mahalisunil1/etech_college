@@ -200,25 +200,157 @@ const visualFacilities: Facility[] = [
         iconPath: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
       }
     ]
+  },
+  {
+    id: "smart-classrooms-visual",
+    title: "AC Smart Classrooms",
+    subtitle: "Digital Learning Environment",
+    badge: "Interactive Setup",
+    desc: "Air-conditioned rooms with digital smart boards and AV systems transform complex concepts into visual experiences, making learning highly engaging.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7919.webp", label: "Smart Classroom View 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7924.webp", label: "Smart Classroom View 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7928.webp", label: "Smart Classroom View 3" }
+    ],
+    bulletPoints: [
+      {
+        title: "Digital Smart Boards",
+        desc: "Interactive panels that make learning engaging and visually appealing.",
+        iconPath: "M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
+      },
+      {
+        title: "AV Systems",
+        desc: "High-quality audio-visual systems for an immersive learning experience.",
+        iconPath: "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 00-2 2z"
+      },
+      {
+        title: "Comfortable Environment",
+        desc: "Fully air-conditioned spaces ensuring student comfort during long sessions.",
+        iconPath: "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+      }
+    ]
+  },
+  {
+    id: "campus-cctv-visual",
+    title: "Campus with CCTV",
+    subtitle: "24x7 Security Surveillance",
+    badge: "Maximum Safety",
+    desc: "A comprehensive network of high-definition CCTV cameras ensures round-the-clock safety and security across the entire campus.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CCTV/CCTV 1.webp", label: "Campus CCTV" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CCTV/CCTV 2.webp", label: "CCTV Surveillance" }
+    ],
+    bulletPoints: [
+      {
+        title: "Continuous Monitoring",
+        desc: "Real-time monitoring of all campus activities to ensure a secure environment.",
+        iconPath: "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 00-2 2z"
+      },
+      {
+        title: "Strategic Placement",
+        desc: "Cameras located at all entry points, corridors, and communal areas.",
+        iconPath: "M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      },
+      {
+        title: "Dedicated Control Room",
+        desc: "Security personnel actively monitoring feeds to coordinate rapid response if needed.",
+        iconPath: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+      }
+    ]
+  },
+  {
+    id: "canteen-facility-visual",
+    title: "College Canteen",
+    subtitle: "Hygienic & Fresh Food",
+    badge: "Quality Meals",
+    desc: "Our college canteen offers a wide variety of fresh, nutritious, and hygienically prepared meals and snacks for students and staff.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CANTEEN.webp", label: "Boys Canteen" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/DSC_7900.webp", label: "Canteen Area" }
+    ],
+    bulletPoints: [
+      {
+        title: "Diverse Menu",
+        desc: "A wide selection of healthy meals, snacks, and beverages catering to different tastes.",
+        iconPath: "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+      },
+      {
+        title: "Clean and Hygienic",
+        desc: "Strict adherence to food safety and cleanliness standards in preparation and serving.",
+        iconPath: "M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      },
+      {
+        title: "Relaxing Ambiance",
+        desc: "A comfortable setting for students to socialize and unwind between classes.",
+        iconPath: "M11.48 3.499c.195-.39.78-.39.976 0l2.25 4.561 5.033.731c.433.063.606.595.293.901l-3.642 3.551.86 5.012c.074.432-.38.761-.767.558L12 18.347l-4.512 2.372c-.387.203-.84-.126-.767-.558l.86-5.012-3.642-3.551c-.313-.306-.14-.838.293-.901l5.033-.731 2.25-4.561z"
+      }
+    ]
+  },
+  {
+    id: "science-laboratory-visual",
+    title: "Well-Equipped Laboratories",
+    subtitle: "Hands-on Learning",
+    badge: "Advanced Tech",
+    desc: "Physics, Chemistry, Botany, and Zoology labs with modern instruments and specimens for comprehensive practical excellence.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 1.webp", label: "Chemistry Lab" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 1.webp", label: "Physics Lab" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 1.webp", label: "Botany Lab" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 1.webp", label: "Zoology Lab" }
+    ],
+    bulletPoints: [
+      {
+        title: "Modern Equipment",
+        desc: "Up-to-date apparatus and tools essential for conducting advanced experiments.",
+        iconPath: "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+      },
+      {
+        title: "Expert Supervision",
+        desc: "Experienced lab assistants and faculty guiding students through every practical session.",
+        iconPath: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+      },
+      {
+        title: "Safety First",
+        desc: "Strict adherence to safety protocols, including first-aid readiness and proper ventilation.",
+        iconPath: "M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      }
+    ]
+  },
+  {
+    id: "computer-lab-visual",
+    title: "Advanced Computer Lab",
+    subtitle: "Digital Fluency",
+    badge: "High-Speed Access",
+    desc: "High-speed workstations, modern software, and broadband internet building digital fluency for every student.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT.webp", label: "Computer Lab" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT (2).webp", label: "IT Workstations" }
+    ],
+    bulletPoints: [
+      {
+        title: "Latest Technology",
+        desc: "Equipped with the latest hardware and software to keep students up to date with industry standards.",
+        iconPath: "M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+      },
+      {
+        title: "High-Speed Internet",
+        desc: "Seamless connectivity for research, online learning, and uninterrupted project work.",
+        iconPath: "M13 10V3L4 14h7v7l9-11h-7z"
+      },
+      {
+        title: "Dedicated Support",
+        desc: "Technical staff available to assist students with programming, design, and software issues.",
+        iconPath: "M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198.097.03M16.5 10.5a3 3 0 11-6 0 3 3 0 016 0zM18 6.5a3 3 0 11-6 0 3 3 0 016 0zM9 18.72a9.094 9.094 0 01-3.741-.479 3 3 0 014.682-2.72m-.94 3.198-.097.03M7.5 10.5a3 3 0 11-6 0 3 3 0 016 0zM9 6.5a3 3 0 11-6 0 3 3 0 016 0z"
+      }
+    ]
   }
 ];
 
 const informationalFacilities: InfoFacility[] = [
   {
-    id: "computer-lab",
-    num: "01",
-    title: "Advanced Computer Lab",
-    desc: "High-speed workstations, modern software, and broadband internet — building digital fluency for every student.",
-    tag: "Academics",
-    gradient: "linear-gradient(135deg, #1e1b4b 0%, #3730a3 100%)",
-    glowColor: "rgba(99,102,241,0.5)",
-    glowLine: "linear-gradient(90deg,#818cf8,#6366f1,#818cf8)",
-    iconColor: "text-indigo-300",
-    iconPath: "M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-  },
-  {
     id: "doubt-clearing",
-    num: "02",
+    num: "01",
     title: "Regular Doubt-Clearing Sessions",
     desc: "One-on-one sessions with expert faculty ensure no concept is left unclear, keeping every student ahead of the curve.",
     tag: "Support",
@@ -230,7 +362,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "science-labs",
-    num: "03",
+    num: "02",
     title: "Well-Equipped Science Labs",
     desc: "Physics, Chemistry, and Biology labs with modern instruments and specimens for hands-on practical excellence.",
     tag: "Academics",
@@ -241,20 +373,8 @@ const informationalFacilities: InfoFacility[] = [
     iconPath: "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
   },
   {
-    id: "smart-classrooms",
-    num: "04",
-    title: "AC Smart Classrooms",
-    desc: "Air-conditioned rooms with digital smart boards and AV systems transform complex concepts into visual experiences.",
-    tag: "Academics",
-    gradient: "linear-gradient(135deg, #4a044e 0%, #a21caf 100%)",
-    glowColor: "rgba(192,38,211,0.45)",
-    glowLine: "linear-gradient(90deg,#f0abfc,#c026d3,#f0abfc)",
-    iconColor: "text-fuchsia-300",
-    iconPath: "M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
-  },
-  {
     id: "library",
-    num: "05",
+    num: "03",
     title: "Library & Reading Room",
     desc: "Thousands of textbooks, journals, and reference books in a quiet scholarly space that fosters deep research.",
     tag: "Academics",
@@ -266,7 +386,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "security",
-    num: "06",
+    num: "04",
     title: "24×7 CCTV Surveillance",
     desc: "Campus-wide high-definition camera network ensures round-the-clock safety for all students and staff.",
     tag: "Safety",
@@ -278,7 +398,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "coaching",
-    num: "07",
+    num: "05",
     title: "NEET & JEE Integrated Coaching",
     desc: "Daily mock tests and expert-curated material that weave entrance coaching seamlessly into the board syllabus.",
     tag: "Entrance",
@@ -290,7 +410,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "guidance",
-    num: "08",
+    num: "06",
     title: "Career Guidance & Counselling",
     desc: "Professional counsellors help students navigate exam stress, career choices, and personal development confidently.",
     tag: "Support",
@@ -302,7 +422,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "scholarships",
-    num: "09",
+    num: "07",
     title: "Scholarship Support",
     desc: "Merit-based scholarships and tuition fee exemptions reward academic excellence and motivate high achievers.",
     tag: "Support",
@@ -314,7 +434,7 @@ const informationalFacilities: InfoFacility[] = [
   },
   {
     id: "medical",
-    num: "10",
+    num: "08",
     title: "Medical Assistance & First Aid",
     desc: "On-campus first-aid station and collaboration with nearby clinics ensure every health emergency is handled swiftly.",
     tag: "Health",

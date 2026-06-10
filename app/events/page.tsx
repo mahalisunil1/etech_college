@@ -21,6 +21,8 @@ const eventsData = [
       { src: "/new/EVENTS/2026 EVENTS/FALICITATION/DSC_7828.webp", alt: "Staff and Toppers Celebrations" },
       { src: "/new/EVENTS/2026 EVENTS/FALICITATION/DSC_7835.webp", alt: "Student receiving State-level Award" },
       { src: "/new/EVENTS/2026 EVENTS/FALICITATION/DSC_7846.webp", alt: "2026 Felicitation Ceremony Stage" },
+      { src: "/WEBSITE CHANGES 3/FALICITATION/DSC_7836.webp", alt: "Felicitation Program Awardee" },
+      { src: "/WEBSITE CHANGES 3/FALICITATION/DSC_7837.webp", alt: "Felicitation Program Celebration" },
     ]
   },
   {
