@@ -66,6 +66,7 @@ export const entranceData = {
       ]
     },
     "NEET": {
+      "2026": [],
       "2023": [
         "WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2023/01 - SUBHAM DASH - 657.webp",
         "WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2023/02 - RUTUPARNA PANIGRAHI - 645.webp",
