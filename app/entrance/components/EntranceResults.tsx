@@ -30,8 +30,8 @@ const results = [
 ];
 
 export default function EntranceResults() {
-  const [activeExam, setActiveExam] = useState<"NEET" | "JEE">("NEET");
-  const [activeYear, setActiveYear] = useState<"2025" | "2024" | "2023">("2025");
+  const [activeExam, setActiveExam] = useState<"NEET" | "JEE">("JEE");
+  const [activeYear, setActiveYear] = useState<"2026" | "2025" | "2024" | "2023">("2026");
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
 
   // Get active images based on selected tabs
@@ -149,7 +149,7 @@ export default function EntranceResults() {
               </div>
               
               <div className="flex bg-slate-100 p-1 rounded-full">
-                {(["2025", "2024", "2023"] as const).map(year => (
+                {(["2026", "2025", "2024", "2023"] as const).map(year => (
                   <button
                     key={year}
                     onClick={() => setActiveYear(year)}

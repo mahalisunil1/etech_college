@@ -19,8 +19,7 @@ const showcaseCategories = [
     id: "study-exams",
     name: "Study & Exams",
     items: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7957.webp", label: "Library & Study Zone", desc: "Quiet study zones designed for individual preparation and revision." },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7960.webp", label: "Resource Center", desc: "Extensive collection of reference materials." },
+      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/STUDY ROOM.webp", label: "Dedicated Study Room", desc: "Focused study environment for continuous preparation." },
       { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7896.webp", label: "State-of-the-Art Exam Hall", desc: "Spacious exam halls simulating national test environments." },
       { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7897.webp", label: "CBT Practice", desc: "Rigorous testing environments to build exam temperment." }
     ]
@@ -37,14 +36,6 @@ const showcaseCategories = [
     name: "Doubt Desk",
     items: [
       { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ONE TO ONE DOUBT CLEAR.webp", label: "One-to-One Doubt Clearance Desk", desc: "Personalized faculty attention outside lectures to clear complex topics." }
-    ]
-  },
-  {
-    id: "banners",
-    name: "Banners & Events",
-    items: [
-      { src: "/new/Glorious Achievments/KEY HIGHLIGHTS ADVT. - 2026.webp", label: "Key Highlights Board Advertisement", desc: "2026 academic milestones and achievements banner." },
-      { src: "/new/Glorious Achievments/15x6 - etech.webp", label: "State CHSE Board Rank Holders", desc: "Celebrating our toppers on regional boards." }
     ]
   }
 ];

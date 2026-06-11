@@ -5,8 +5,7 @@ export default function NoticeBoard() {
     { date: "New", text: "Admission open for CHSE 2026-27", tag: "Entrance" },
     { date: "Closed", text: "Summer course 2026 closed", tag: "Summer" },
     { date: "New", text: "Admission open for NEET 2026-27", tag: "Entrance" },
-    { date: "New", text: "Admission open for CBSE", tag: "Entrance" },
-    { date: "Alert", text: "We don’t have arts and commerce", tag: "Warning" },
+    { date: "New", text: "Admission open for CBSE", tag: "Entrance" }
   ];
 
   const getTagStyle = (tag: string) => {

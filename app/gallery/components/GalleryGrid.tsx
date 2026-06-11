@@ -28,8 +28,6 @@ const galleryData: GalleryItem[] = [
   { src: "/new/Gallery/2026/DSC_7839.webp", alt: "Felicitation Stage Speeches", year: "2026", category: "felicitation" },
   { src: "/new/Gallery/2026/DSC_7841.webp", alt: "Toppers Addressing the gathering", year: "2026", category: "felicitation" },
   { src: "/new/Gallery/2026/DSC_7846.webp", alt: "2026 Board Felicitation Function", year: "2026", category: "felicitation" },
-  { src: "/WEBSITE CHANGES 3/FALICITATION/DSC_7836.webp", alt: "Felicitation Program Awardee", year: "2026", category: "felicitation" },
-  { src: "/WEBSITE CHANGES 3/FALICITATION/DSC_7837.webp", alt: "Felicitation Program Celebration", year: "2026", category: "felicitation" },
 
   // 2026 - Republic Day
   { src: "/new/EVENTS/JAN-26/DSC_9220.webp", alt: "Republic Day Celebration 2026", year: "2026", category: "national-days" },
@@ -91,6 +89,13 @@ const galleryData: GalleryItem[] = [
   { src: "/oas-felicitation/WhatsApp-Image-2025-11-18-at-10.17.54-AM.webp", alt: "OAS Rank Holders", year: "2023", category: "felicitation" },
 
   // 2022 Events
+
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7920.webp", alt: "Campus Classroom 1", year: "2026", category: "campus-life" },
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7929.webp", alt: "Campus Classroom 2", year: "2026", category: "campus-life" },
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7931.webp", alt: "Campus Classroom 3", year: "2026", category: "campus-life" },
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7971.webp", alt: "Campus Classroom 4", year: "2026", category: "campus-life" },
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7974.webp", alt: "Campus Classroom 5", year: "2026", category: "campus-life" },
+  { src: "/WEBSITE CHANGES 3/FACILITIES/CLASS ROOM/DSC_7975.webp", alt: "Campus Classroom 6", year: "2026", category: "campus-life" },
   { src: "/CAMPUS/CLASSROOM(2).webp", alt: "Campus Classroom 2022", year: "2022", category: "campus-life" },
   { src: "/CAMPUS/DSC_0005(1).webp", alt: "Campus Study Room 2022", year: "2022", category: "campus-life" },
   { src: "/new/Gallery/2022/DSC_1993.webp", alt: "Campus Life 2022", year: "2022", category: "campus-life" },

@@ -69,7 +69,7 @@ const visualFacilities: Facility[] = [
     desc: "A highly hygienic hostel mess serving four nutritious, balanced, and fresh meals daily (breakfast, lunch, evening snacks, and dinner) to keep students healthy and focused.",
     images: [
       { src: "/new/FACILITIES/HOSTEL/DSC_1196.webp", label: "Hostel Dining & Mess Area" },
-      { src: "/gallery-page/gallery-image-twelve.webp", label: "Hygienic Dining Facilities" }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/DSC_7900.webp", label: "Hygienic Dining Facilities" }
     ],
     bulletPoints: [
       {
@@ -209,9 +209,10 @@ const visualFacilities: Facility[] = [
     badge: "Interactive Setup",
     desc: "Air-conditioned rooms with digital smart boards and AV systems transform complex concepts into visual experiences, making learning highly engaging.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7919.webp", label: "Smart Classroom View 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7924.webp", label: "Smart Classroom View 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7928.webp", label: "Smart Classroom View 3" }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7919.webp", label: "Digital Classroom 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7924.webp", label: "Digital Classroom 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7925.webp", label: "Digital Classroom 3" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7928.webp", label: "Digital Classroom 4" }
     ],
     bulletPoints: [
       {
@@ -260,6 +261,35 @@ const visualFacilities: Facility[] = [
     ]
   },
   {
+    id: "library-visual",
+    title: "College Library",
+    subtitle: "Knowledge Resource Center",
+    badge: "Extensive Collection",
+    desc: "A quiet and fully equipped library with a vast collection of books, journals, and digital resources to support academic growth.",
+    images: [
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7957.webp", label: "Library Area 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7958.webp", label: "Library Area 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7960.webp", label: "Library Area 3" }
+    ],
+    bulletPoints: [
+      {
+        title: "Vast Collection",
+        desc: "Extensive selection of textbooks, reference materials, and competitive exam guides.",
+        iconPath: "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+      },
+      {
+        title: "Quiet Reading Zones",
+        desc: "Dedicated silent areas designed specifically for undisturbed self-study.",
+        iconPath: "M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+      },
+      {
+        title: "Digital Resources",
+        desc: "Access to digital learning platforms, e-books, and research journals.",
+        iconPath: "M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+      }
+    ]
+  },
+  {
     id: "canteen-facility-visual",
     title: "College Canteen",
     subtitle: "Hygienic & Fresh Food",
@@ -267,8 +297,7 @@ const visualFacilities: Facility[] = [
     desc: "Our college canteen offers a wide variety of fresh, nutritious, and hygienically prepared meals and snacks for students and staff.",
     images: [
       { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CANTEEN.webp", label: "Boys Canteen" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/DSC_7900.webp", label: "Canteen Area" }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" }
     ],
     bulletPoints: [
       {
@@ -295,10 +324,16 @@ const visualFacilities: Facility[] = [
     badge: "Advanced Tech",
     desc: "Physics, Chemistry, Botany, and Zoology labs with modern instruments and specimens for comprehensive practical excellence.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 1.webp", label: "Chemistry Lab" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 1.webp", label: "Physics Lab" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 1.webp", label: "Botany Lab" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 1.webp", label: "Zoology Lab" }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 1.webp", label: "Chemistry Lab 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 2.webp", label: "Chemistry Lab 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 1.webp", label: "Physics Lab 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 2.webp", label: "Physics Lab 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 1.webp", label: "Botany Lab 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 2.webp", label: "Botany Lab 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 1.webp", label: "Zoology Lab 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 2.webp", label: "Zoology Lab 2" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT.webp", label: "IT Lab 1" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT (2).webp", label: "IT Lab 2" }
     ],
     bulletPoints: [
       {
