@@ -13,6 +13,8 @@ interface GalleryItem {
 
 const galleryData: GalleryItem[] = [
   // 2026 - Felicitation
+  { src: "/feliciations 2026/DSC_7836.JPG", alt: "Felicitation Ceremony Award", year: "2026", category: "felicitation" },
+  { src: "/feliciations 2026/DSC_7843.JPG", alt: "Felicitation Function Honours", year: "2026", category: "felicitation" },
   { src: "/new/Gallery/2026/DSC_7508.webp", alt: "Felicitation Stage Ceremony", year: "2026", category: "felicitation" },
   { src: "/new/Gallery/2026/DSC_7541.webp", alt: "Academic Excellence Awards", year: "2026", category: "felicitation" },
   { src: "/new/Gallery/2026/DSC_7546.webp", alt: "Outstanding Performance Honors", year: "2026", category: "felicitation" },

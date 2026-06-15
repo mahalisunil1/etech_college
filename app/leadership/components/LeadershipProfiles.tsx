@@ -150,9 +150,70 @@ export default function LeadershipProfiles() {
       </div>
 
       {/* ── DIVIDER ── */}
+      <div className="w-[80vw] mx-auto h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent my-24 lg:my-40" />{/* ── PROFILE 3: WOMEN'S COLLEGE PRINCIPAL ── */}
+      <div className="w-[90vw] mx-auto max-w-7xl relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          
+          {/* Text Side (Left on Desktop, Top on Mobile) */}
+          <div className="w-full lg:w-[55%] flex flex-col justify-center order-2 lg:order-1 reveal">
+            <span className="text-blue-600 font-bold tracking-[0.2em] uppercase text-sm mb-3">
+              Principal of eTech Women&apos;s College
+            </span>
+            <div className="relative inline-block mb-8">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-[1.1] tracking-tight">
+                Mr. Sarada Prasad Mohanty
+              </h2>
+              {/* Double Swoosh */}
+              <svg className="absolute -bottom-4 left-0 w-[80%] h-[16px] text-blue-500/50" viewBox="0 0 200 16" fill="none" preserveAspectRatio="none">
+                <path d="M5,12 Q100,0 195,10" stroke="currentColor" strokeWidth="4" strokeLinecap="round" fill="none" />
+                <path d="M25,16 Q100,6 170,14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none" />
+              </svg>
+            </div>
+
+            {/* Quote Block */}
+            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-100 relative mt-4">
+              <svg className="absolute top-6 left-6 w-12 h-12 text-[#fbbf24]/20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+              <div className="relative z-10 text-slate-700 text-lg md:text-xl font-medium leading-relaxed italic pl-10 border-l-4 border-[#fbbf24]">
+                &quot;At eTech Women&apos;s College, our vision is to empower young women through quality education, strong values, and leadership development.&quot;
+              </div>
+              <p className="mt-6 text-base text-slate-600 leading-relaxed font-light pl-10">
+                We strive to create a nurturing learning environment where students gain knowledge, confidence, and life skills to excel in higher education, professional careers, and society. Our commitment is to inspire every student to become a responsible, compassionate, and successful individual who contributes positively to the nation and the world.
+              </p>
+            </div>
+          </div>
+
+          {/* Image Side (Right on Desktop, Bottom on Mobile) */}
+          <div className="w-full lg:w-[45%] relative order-1 lg:order-2 reveal">
+            {/* Decorative Frame */}
+            <div className="absolute -inset-4 bg-[#fbbf24]/20 rounded-2xl -rotate-2 scale-105 -z-10" />
+            <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl rotate-2 scale-105 -z-10" />
+            
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
+              <Image src="/WEBSITE CHANGES 3/principal eTech womens college.webp" 
+                alt="Mr. Sarada Prasad Mohanty" 
+                className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+               width={800} height={800} unoptimized={false} />
+            </div>
+            
+            {/* Yellow Accent Badge */}
+            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-slate-900 rounded-full flex items-center justify-center shadow-lg border-4 border-[#f8fafc] text-[#fbbf24]">
+              <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2l2.4 7.4h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z"/>
+              </svg>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      {/* ── DIVIDER ── */}
       <div className="w-[80vw] mx-auto h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent my-24 lg:my-40" />
 
-      {/* ── PROFILE 3: VICE PRINCIPAL ── */}
+      
+
+      {/* ── PROFILE 4: VICE PRINCIPAL ── */}
       <div className="w-[90vw] mx-auto max-w-7xl relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
@@ -205,67 +266,6 @@ export default function LeadershipProfiles() {
               <p className="mt-6 text-base text-slate-600 leading-relaxed font-light pl-10">
                 Our vision is to create a supportive learning environment that encourages intellectual growth, innovation, and holistic development, preparing students for higher education and responsible citizenship.
               </p>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-      {/* ── DIVIDER ── */}
-      <div className="w-[80vw] mx-auto h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent my-24 lg:my-40" />
-
-      {/* ── PROFILE 4: WOMEN'S COLLEGE PRINCIPAL ── */}
-      <div className="w-[90vw] mx-auto max-w-7xl relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          
-          {/* Text Side (Left on Desktop, Top on Mobile) */}
-          <div className="w-full lg:w-[55%] flex flex-col justify-center order-2 lg:order-1 reveal">
-            <span className="text-blue-600 font-bold tracking-[0.2em] uppercase text-sm mb-3">
-              Principal of eTech Women&apos;s College
-            </span>
-            <div className="relative inline-block mb-8">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-[1.1] tracking-tight">
-                Mr. Sarada Prasad Mohanty
-              </h2>
-              {/* Double Swoosh */}
-              <svg className="absolute -bottom-4 left-0 w-[80%] h-[16px] text-blue-500/50" viewBox="0 0 200 16" fill="none" preserveAspectRatio="none">
-                <path d="M5,12 Q100,0 195,10" stroke="currentColor" strokeWidth="4" strokeLinecap="round" fill="none" />
-                <path d="M25,16 Q100,6 170,14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none" />
-              </svg>
-            </div>
-
-            {/* Quote Block */}
-            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-100 relative mt-4">
-              <svg className="absolute top-6 left-6 w-12 h-12 text-[#fbbf24]/20" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-              </svg>
-              <div className="relative z-10 text-slate-700 text-lg md:text-xl font-medium leading-relaxed italic pl-10 border-l-4 border-[#fbbf24]">
-                &quot;At eTech Women&apos;s College, our vision is to empower young women through quality education, strong values, and leadership development.&quot;
-              </div>
-              <p className="mt-6 text-base text-slate-600 leading-relaxed font-light pl-10">
-                We strive to create a nurturing learning environment where students gain knowledge, confidence, and life skills to excel in higher education, professional careers, and society. Our commitment is to inspire every student to become a responsible, compassionate, and successful individual who contributes positively to the nation and the world.
-              </p>
-            </div>
-          </div>
-
-          {/* Image Side (Right on Desktop, Bottom on Mobile) */}
-          <div className="w-full lg:w-[45%] relative order-1 lg:order-2 reveal">
-            {/* Decorative Frame */}
-            <div className="absolute -inset-4 bg-[#fbbf24]/20 rounded-2xl -rotate-2 scale-105 -z-10" />
-            <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl rotate-2 scale-105 -z-10" />
-            
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
-              <Image src="/WEBSITE CHANGES 3/principal eTech womens college.webp" 
-                alt="Mr. Sarada Prasad Mohanty" 
-                className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
-               width={800} height={800} unoptimized={false} />
-            </div>
-            
-            {/* Yellow Accent Badge */}
-            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-slate-900 rounded-full flex items-center justify-center shadow-lg border-4 border-[#f8fafc] text-[#fbbf24]">
-              <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2l2.4 7.4h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z"/>
-              </svg>
             </div>
           </div>
           

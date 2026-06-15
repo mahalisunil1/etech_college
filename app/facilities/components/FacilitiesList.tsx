@@ -39,6 +39,7 @@ const visualFacilities: Facility[] = [
     badge: "Separate Wings",
     desc: "We provide separate, fully-furnished, and highly secured residential wings for boys and girls, engineered to ensure a safe, hygienic, and productive stay.",
     images: [
+      { src: "/new/FACILITIES/HOSTEL/DSC_1196.webp", label: "Boys Hostel Building" },
       { src: "/new/FACILITIES/HOSTEL/BOYS HOSTEL FRONT.webp", label: "Boys Hostel Front View" },
       { src: "/new/FACILITIES/HOSTEL/GIRLS HOSTEL 1.webp", label: "Girls Hostel Wing A" },
       { src: "/new/FACILITIES/HOSTEL/GIRLS HOSTEL 2.webp", label: "Girls Hostel Wing B" }
@@ -68,8 +69,10 @@ const visualFacilities: Facility[] = [
     badge: "4 Meals Daily",
     desc: "A highly hygienic hostel mess serving four nutritious, balanced, and fresh meals daily (breakfast, lunch, evening snacks, and dinner) to keep students healthy and focused.",
     images: [
-      { src: "/new/FACILITIES/HOSTEL/DSC_1196.webp", label: "Hostel Dining & Mess Area" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/DSC_7900.webp", label: "Hygienic Dining Facilities" }
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CANTEEN.webp", label: "Boys Canteen" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CONTEEN 2.webp", label: "Boys Canteen Dining Area" },
+      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN 2.webp", label: "Girls Canteen Dining Area" }
     ],
     bulletPoints: [
       {
