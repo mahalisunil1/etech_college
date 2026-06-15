@@ -12,6 +12,8 @@ const galleryImages = [
   { id: 5, src: "/new/AWARDS & CEREMONIES/DSC_7678.webp", alt: "Student Achievements Award" },
   { id: 6, src: "/new/AWARDS & CEREMONIES/CHSE-2025/DSC_1871.webp", alt: "CHSE 2025 Top Achievers" },
   { id: 7, src: "/new/AWARDS & CEREMONIES/CHSE-2024/_DSC6761.webp", alt: "CHSE 2024 Felicitation program" },
+  { id: 8, src: "/feliciations 2026/DSC_7836.JPG", alt: "2026 Felicitation Ceremony" },
+  { id: 9, src: "/feliciations 2026/DSC_7843.JPG", alt: "2026 Achievers Awards" },
 ];
 
 export default function AchievementGallery() {
@@ -52,11 +54,11 @@ export default function AchievementGallery() {
         </div>
 
         {/* Masonry-style Grid */}
-        <div className={`columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`columns-1 sm:columns-2 lg:columns-3 gap-6 transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
           {galleryImages.map((img, idx) => (
             <div 
               key={img.id}
-              className="relative break-inside-avoid rounded-2xl overflow-hidden cursor-pointer group shadow-2xl border border-blue-900 hover:border-[#fbbf24]/80 transition-all duration-500 reveal hover:-translate-y-2"
+              className="relative break-inside-avoid mb-6 rounded-2xl overflow-hidden cursor-pointer group shadow-2xl border border-blue-900 hover:border-[#fbbf24]/80 transition-all duration-500 reveal hover:-translate-y-2"
               onClick={() => setSelectedIdx(idx)}
             >
               <Image src={img.src} 
