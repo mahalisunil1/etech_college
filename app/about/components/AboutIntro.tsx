@@ -86,7 +86,7 @@ export default function AboutIntro() {
           <div className="lg:col-span-5 flex flex-col gap-8 reveal">
             {/* Campus Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 group">
-              <Image src="/new/CAMPUS PHOTO.webp"
+              <Image src="/images/campus/campus-photo.webp"
                 alt="eTech College Campus"
                 className="w-full h-[280px] md:h-[340px] object-cover transition-transform duration-[1.5s] group-hover:scale-105"
                width={800} height={800} unoptimized={false} />
@@ -141,7 +141,7 @@ export default function AboutIntro() {
 
                 {/* Second campus image inline */}
                 <div className="relative rounded-xl overflow-hidden shadow-md border border-slate-200 mb-8 group">
-                  <Image src="/new/FACILITIES/HOSTEL/BOYS HOSTEL FRONT.webp"
+                  <Image src="/images/campus/facilities/hostel-boys-hostel-front.webp"
                     alt="eTech Student Hostel"
                     className="w-full h-[200px] md:h-[240px] object-cover transition-transform duration-[1.5s] group-hover:scale-105"
                    width={800} height={800} unoptimized={false} />

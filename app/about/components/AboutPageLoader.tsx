@@ -78,7 +78,7 @@ export default function AboutPageLoader() {
             />
           </svg>
           <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center p-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
-            <Image src="/logo1.webp"
+            <Image src="/images/landing/logo1.webp"
               alt="eTech College"
               className="w-full h-full object-contain"
              width={800} height={800} unoptimized={false} />

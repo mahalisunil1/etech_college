@@ -23,7 +23,7 @@ export default function Footer() {
               <div className="flex items-center gap-3 cursor-pointer">
                 {/* Logo Icon */}
                 <div className="w-12 h-12 relative flex items-center justify-center bg-white rounded-full p-1 shadow-md">
-                  <Image src="/logo1.webp" alt="eTech Logo" className="w-full h-full object-contain"  width={800} height={800} unoptimized={false} />
+                  <Image src="/images/landing/logo1.webp" alt="eTech Logo" className="w-full h-full object-contain"  width={800} height={800} unoptimized={false} />
                 </div>
                 {/* Logo Text */}
                 <div className="flex flex-col">

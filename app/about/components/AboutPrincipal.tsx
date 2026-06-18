@@ -129,7 +129,7 @@ export default function AboutPrincipal() {
             {/* Decorative dots */}
             <div className="absolute -right-8 top-1/4 w-24 h-24 bg-[radial-gradient(#cbd5e1_2px,transparent_2px)] [background-size:12px_12px] opacity-40 rounded-full animate-pulse z-0" />
             {/* The Cutout Image */}
-            <Image src="/principal/principal.webp"
+            <Image src="/images/about/principal-principal.webp"
               alt="Dr. Suresh Mishra"
               className="relative z-10 block w-[140%] max-w-[750px] object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.25)] -mb-8 lg:-mb-12 origin-bottom transform transition-transform duration-[1500ms] ease-out group-hover:scale-[1.03]"
              width={800} height={800} unoptimized={false} />

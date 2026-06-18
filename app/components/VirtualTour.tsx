@@ -42,7 +42,7 @@ export default function VirtualTour() {
           {!playing ? (
             <>
               {/* Thumbnail */}
-              <Image src="/landing/hero-bg/hero-bg.webp"
+              <Image src="/images/landing/landing-hero-bg-hero-bg.webp"
                 alt="Campus Tour Thumbnail"
                 className="absolute inset-0 w-full h-full object-cover opacity-60"
                width={800} height={800} unoptimized={false} />

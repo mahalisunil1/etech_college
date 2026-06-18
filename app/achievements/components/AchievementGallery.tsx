@@ -5,15 +5,15 @@ import { useState, useEffect } from "react";
 import UniversalLightbox from "../../components/UniversalLightbox";
 
 const galleryImages = [
-  { id: 1, src: "/new/AWARDS & CEREMONIES/DSC_7614.webp", alt: "State Level Felicitation 2026" },
-  { id: 2, src: "/new/AWARDS & CEREMONIES/DSC_7621.webp", alt: "Academic Excellence Ceremony" },
-  { id: 3, src: "/new/AWARDS & CEREMONIES/DSC_7633.webp", alt: "Principal Honoring Toppers" },
-  { id: 4, src: "/new/AWARDS & CEREMONIES/DSC_7665.webp", alt: "CHSE Board Felicitation" },
-  { id: 5, src: "/new/AWARDS & CEREMONIES/DSC_7678.webp", alt: "Student Achievements Award" },
-  { id: 6, src: "/new/AWARDS & CEREMONIES/CHSE-2025/DSC_1871.webp", alt: "CHSE 2025 Top Achievers" },
-  { id: 7, src: "/new/AWARDS & CEREMONIES/CHSE-2024/_DSC6761.webp", alt: "CHSE 2024 Felicitation program" },
-  { id: 8, src: "/feliciations 2026/DSC_7836.JPG", alt: "2026 Felicitation Ceremony" },
-  { id: 9, src: "/feliciations 2026/DSC_7843.JPG", alt: "2026 Achievers Awards" },
+  { id: 1, src: "/images/misc/awards-&-ceremonies-dsc-7614.webp", alt: "State Level Felicitation 2026" },
+  { id: 2, src: "/images/misc/awards-&-ceremonies-dsc-7621.webp", alt: "Academic Excellence Ceremony" },
+  { id: 3, src: "/images/misc/awards-&-ceremonies-dsc-7633.webp", alt: "Principal Honoring Toppers" },
+  { id: 4, src: "/images/misc/awards-&-ceremonies-dsc-7665.webp", alt: "CHSE Board Felicitation" },
+  { id: 5, src: "/images/misc/awards-&-ceremonies-dsc-7678.webp", alt: "Student Achievements Award" },
+  { id: 6, src: "/images/misc/awards-&-ceremonies-chse-2025-dsc-1871.webp", alt: "CHSE 2025 Top Achievers" },
+  { id: 7, src: "/images/misc/awards-&-ceremonies-chse-2024-dsc6761.webp", alt: "CHSE 2024 Felicitation program" },
+  { id: 8, src: "/images/misc/feliciations-2026-DSC-7836.JPG", alt: "2026 Felicitation Ceremony" },
+  { id: 9, src: "/images/misc/feliciations-2026-DSC-7843.JPG", alt: "2026 Achievers Awards" },
 ];
 
 export default function AchievementGallery() {

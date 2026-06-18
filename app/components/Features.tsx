@@ -11,7 +11,7 @@ const facilities = [
     subtitle: "Residential Life",
     desc: "Fully-furnished, safe, and hygienic residential wings for boys and girls with 24×7 security, nutritious meals, and RO purified water — a true home away from home.",
     tags: ["24×7 Security", "Balanced Nutrition", "RO Purified Water"],
-    img: "/new/FACILITIES/HOSTEL/GIRLS HOSTEL 1.webp",
+    img: "/images/campus/facilities/hostel-girls-hostel-1.webp",
   },
   {
     num: "02",
@@ -19,7 +19,7 @@ const facilities = [
     subtitle: "Events & Discourse",
     desc: "A 300-seat, air-conditioned hall hosting expert lectures, cultural events, and student seminars.",
     tags: ["Expert Sessions", "Cultural Events"],
-    img: "/new/FACILITIES/SEMINAR HALL.webp",
+    img: "/images/campus/facilities/seminar-hall.webp",
   },
   {
     num: "03",
@@ -27,7 +27,7 @@ const facilities = [
     subtitle: "Digital Literacy",
     desc: "High-speed workstations and digital classrooms with broadband internet, developing every student's digital competency.",
     tags: ["Smart Classes", "Broadband Access"],
-    img: "/CAMPUS/CLASSROOM(2).webp",
+    img: "/images/campus/CAMPUS-CLASSROOM(2).webp",
   },
 ];
 

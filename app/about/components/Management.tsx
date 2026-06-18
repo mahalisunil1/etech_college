@@ -146,7 +146,7 @@ export default function Management() {
           <div className="flex flex-col gap-5 reveal reveal-delay-200">
             {/* Campus panoramic */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
-              <Image src="/new/CAMPUS PHOTO.webp"
+              <Image src="/images/campus/campus-photo.webp"
                 alt="eTech Campus Building"
                 className="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-[1.5s] group-hover:scale-105"
                width={800} height={800} unoptimized={false} />

@@ -9,33 +9,33 @@ const showcaseCategories = [
     id: "classrooms",
     name: "Classrooms",
     items: [
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE CLASS ROOM/DSC_7885.webp", label: "Interactive Classroom", desc: "Highly focused academic environment." },
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE CLASS ROOM/DSC_7890.webp", label: "Entrance Preparation Layout", desc: "Spacious learning spaces designed for peak focus." },
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/SMART CLASS ROOM/DSC_7887.webp", label: "Smart Classroom Tech", desc: "Advanced digital panels for dynamic learning." },
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/SMART CLASS ROOM/DSC_7889.webp", label: "Modern Smart Class", desc: "Interactive digital panels making scientific lectures engaging." }
+      { src: "/images/campus/entrance-page-entrance-class-room-dsc-7885.webp", label: "Interactive Classroom", desc: "Highly focused academic environment." },
+      { src: "/images/campus/entrance-page-entrance-class-room-dsc-7890.webp", label: "Entrance Preparation Layout", desc: "Spacious learning spaces designed for peak focus." },
+      { src: "/images/campus/entrance-page-smart-class-room-dsc-7887.webp", label: "Smart Classroom Tech", desc: "Advanced digital panels for dynamic learning." },
+      { src: "/images/campus/entrance-page-smart-class-room-dsc-7889.webp", label: "Modern Smart Class", desc: "Interactive digital panels making scientific lectures engaging." }
     ]
   },
   {
     id: "study-exams",
     name: "Study & Exams",
     items: [
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/STUDY ROOM.webp", label: "Dedicated Study Room", desc: "Focused study environment for continuous preparation." },
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7896.webp", label: "State-of-the-Art Exam Hall", desc: "Spacious exam halls simulating national test environments." },
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/EXAM/DSC_7897.webp", label: "CBT Practice", desc: "Rigorous testing environments to build exam temperment." }
+      { src: "/images/results/misc/STUDY-ROOM.webp", label: "Dedicated Study Room", desc: "Focused study environment for continuous preparation." },
+      { src: "/images/results/exam/DSC-7896.webp", label: "State-of-the-Art Exam Hall", desc: "Spacious exam halls simulating national test environments." },
+      { src: "/images/results/exam/DSC-7897.webp", label: "CBT Practice", desc: "Rigorous testing environments to build exam temperment." }
     ]
   },
   {
     id: "seminar",
     name: "Seminar Hall",
     items: [
-      { src: "/new/FACILITIES/SEMINAR HALL.webp", label: "College Seminar Hall", desc: "Hosting expert talk sessions, motivational speeches, and orientations." }
+      { src: "/images/campus/facilities/seminar-hall.webp", label: "College Seminar Hall", desc: "Hosting expert talk sessions, motivational speeches, and orientations." }
     ]
   },
   {
     id: "doubt-clear",
     name: "Doubt Desk",
     items: [
-      { src: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ONE TO ONE DOUBT CLEAR.webp", label: "One-to-One Doubt Clearance Desk", desc: "Personalized faculty attention outside lectures to clear complex topics." }
+      { src: "/images/results/misc/ONE-TO-ONE-DOUBT-CLEAR.webp", label: "One-to-One Doubt Clearance Desk", desc: "Personalized faculty attention outside lectures to clear complex topics." }
     ]
   }
 ];

@@ -173,13 +173,20 @@ export default function EntranceResults() {
                 let rank = "";
                 
                 const filename = src.split('/').pop()?.replace('.webp', '') || '';
-                const parts = filename.split(/\s*[-_]\s*/);
-                if (parts.length >= 3) {
-                  rank = parts[0];
-                  name = parts[1];
-                  score = parts.slice(2).join(" ");
+                
+                // Filenames are now clean, e.g. "01-SWADHIN-KUMAR-KAR-99.1"
+                let cleanFilename = filename;
+                
+                const match = cleanFilename.match(/^(CBSE|\d+)-(.*?)(?:-([\d.]+(?:-\([a-zA-Z]+\))?))?$/);
+                
+                if (match) {
+                  rank = match[1];
+                  name = match[2].replace(/-/g, ' ');
+                  if (match[3]) {
+                    score = match[3].replace(/-/g, ' ');
+                  }
                 } else {
-                  name = filename;
+                  name = cleanFilename.replace(/-/g, ' ');
                 }
 
                 return (
@@ -211,7 +218,11 @@ export default function EntranceResults() {
                       <h4 className="font-bold text-slate-900 text-sm md:text-base leading-tight mb-3 line-clamp-1 w-full group-hover:text-blue-600 transition-colors">{name}</h4>
                       <div className="flex w-full items-center justify-between text-xs font-bold uppercase tracking-widest border-t border-dashed border-slate-200 pt-3 mt-auto">
                         <span className="text-slate-500 flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-slate-300"></span>Rank {rank}</span>
-                        <span className="text-blue-600 bg-blue-50 px-2 py-1 rounded-md">{score} {activeExam === "JEE" ? "%ile" : ""}</span>
+                        {score && (
+                          <span className="text-blue-600 bg-blue-50 px-2 py-1 rounded-md">
+                            {score} {activeExam === "JEE" ? "%ile" : ""}
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>

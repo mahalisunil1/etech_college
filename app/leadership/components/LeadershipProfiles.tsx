@@ -41,7 +41,7 @@ export default function LeadershipProfiles() {
             <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl -rotate-2 scale-105 -z-10" />
             
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
-              <Image src="/about-us/leadership/Media (3).webp" 
+              <Image src="/images/about/about-us-leadership-Media-(3).webp" 
                 alt="Principal" 
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                width={800} height={800} unoptimized={false} />
@@ -132,7 +132,7 @@ export default function LeadershipProfiles() {
             <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl rotate-2 scale-105 -z-10" />
             
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
-              <Image src="/new/SECRETARY MADAM.webp" 
+              <Image src="/images/misc/secretary-madam.webp" 
                 alt="Secretary Madam" 
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                width={800} height={800} unoptimized={false} />
@@ -191,7 +191,7 @@ export default function LeadershipProfiles() {
             <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl rotate-2 scale-105 -z-10" />
             
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
-              <Image src="/WEBSITE CHANGES 3/principal eTech womens college.webp" 
+              <Image src="/images/about/principal-etech-womens-college.webp" 
                 alt="Mr. Sarada Prasad Mohanty" 
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                width={800} height={800} unoptimized={false} />
@@ -224,7 +224,7 @@ export default function LeadershipProfiles() {
             <div className="absolute -inset-4 bg-blue-900/10 rounded-2xl -rotate-2 scale-105 -z-10" />
             
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5]">
-              <Image src="/about-us/leadership/Media (2).webp" 
+              <Image src="/images/about/about-us-leadership-Media-(2).webp" 
                 alt="Vice Principal" 
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                width={800} height={800} unoptimized={false} />

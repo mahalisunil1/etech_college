@@ -19,7 +19,7 @@ export default function Hero() {
 
     window.scrollTo(0, 0);
 
-    const imagesToLoad = ["/landing/hero-bg/hero-bg.webp"];
+    const imagesToLoad = ["/images/landing/landing-hero-bg-hero-bg.webp"];
     const duration = 1000;
 
     const loadImages = Promise.all(
@@ -150,7 +150,7 @@ export default function Hero() {
               />
             </svg>
             <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full flex items-center justify-center p-3 shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
-              <Image src="/logo1.webp" alt="eTech College" className="w-full h-full object-contain" width={800} height={800} unoptimized={false} />
+              <Image src="/images/landing/logo1.webp" alt="eTech College" className="w-full h-full object-contain" width={800} height={800} unoptimized={false} />
             </div>
           </div>
           <h2 className="text-3xl md:text-5xl font-serif text-white tracking-wide font-medium drop-shadow-lg mb-4 text-center">
@@ -173,7 +173,7 @@ export default function Hero() {
         {/* ── Background image with cinematic dark overlay ── */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/landing/hero-bg/hero-bg.webp"
+            src="/images/landing/landing-hero-bg-hero-bg.webp"
             alt=""
             className="w-full h-full object-cover transition-all duration-[4000ms] ease-[cubic-bezier(0.16,1,0.3,1)]"
             style={{

@@ -5,13 +5,13 @@ import { useState, useEffect } from "react";
 import UniversalLightbox from "../../components/UniversalLightbox";
 
 const highlightBanners = [
-  { src: "/new/Glorious Achievments/15x6 - etech.webp", alt: "State Level Board Toppers Highlights" },
-  { src: "/new/Glorious Achievments/12x8 - etech difference.webp", alt: "The eTech Difference - Key Highlights" },
-  { src: "/new/Glorious Achievments/15x6 - etech copyA.webp", alt: "AHS Examinations Rank Holders Board" },
-  { src: "/new/Glorious Achievments/16x6 - 1 pc - etech - Copy.webp", alt: "State Board Rank 2 Celebrations" },
-  { src: "/new/Glorious Achievments/KEY HIGHLIGHTS ADVT. - 2026.webp", alt: "Academic Key Highlights 2026" },
-  { src: "/new/Glorious Achievments/ADVT. HALF PAGE-D-02.webp", alt: "Administrative Highlights Board Advertisement" },
-  { src: "/new/Glorious Achievments/Parthasarathi Khilar.webp", alt: "Parthasarathi Khilar - 598 Marks Board Topper" },
+  { src: "/images/achievements/glorious-achievments-15x6-etech.webp", alt: "State Level Board Toppers Highlights" },
+  { src: "/images/achievements/glorious-achievments-12x8-etech-difference.webp", alt: "The eTech Difference - Key Highlights" },
+  { src: "/images/achievements/glorious-achievments-15x6-etech-copya.webp", alt: "AHS Examinations Rank Holders Board" },
+  { src: "/images/achievements/glorious-achievments-16x6-1-pc-etech-copy.webp", alt: "State Board Rank 2 Celebrations" },
+  { src: "/images/achievements/glorious-achievments-key-highlights-advt.2026.webp", alt: "Academic Key Highlights 2026" },
+  { src: "/images/achievements/glorious-achievments-advt.half-page-d-02.webp", alt: "Administrative Highlights Board Advertisement" },
+  { src: "/images/achievements/glorious-achievments-parthasarathi-khilar.webp", alt: "Parthasarathi Khilar - 598 Marks Board Topper" },
 ];
 
 export default function CollegeHighlights() {

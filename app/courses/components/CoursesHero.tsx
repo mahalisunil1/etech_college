@@ -16,7 +16,7 @@ export default function CoursesHero() {
     <section className="relative w-full h-[70vh] md:h-[80vh] flex items-end overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/about-us/e-tech/about_us_cover.webp"
+        <Image src="/images/about/about-us-e-tech-about-us-cover.webp"
           alt="eTech College Courses"
           className={`w-full h-full object-cover transition-transform duration-[2500ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
             loaded ? "scale-100" : "scale-110"

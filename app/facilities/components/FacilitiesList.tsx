@@ -39,10 +39,10 @@ const visualFacilities: Facility[] = [
     badge: "Separate Wings",
     desc: "We provide separate, fully-furnished, and highly secured residential wings for boys and girls, engineered to ensure a safe, hygienic, and productive stay.",
     images: [
-      { src: "/new/FACILITIES/HOSTEL/DSC_1196.webp", label: "Boys Hostel Building" },
-      { src: "/new/FACILITIES/HOSTEL/BOYS HOSTEL FRONT.webp", label: "Boys Hostel Front View" },
-      { src: "/new/FACILITIES/HOSTEL/GIRLS HOSTEL 1.webp", label: "Girls Hostel Wing A" },
-      { src: "/new/FACILITIES/HOSTEL/GIRLS HOSTEL 2.webp", label: "Girls Hostel Wing B" }
+      { src: "/images/campus/facilities/hostel-dsc-1196.webp", label: "Boys Hostel Building" },
+      { src: "/images/campus/facilities/hostel-boys-hostel-front.webp", label: "Boys Hostel Front View" },
+      { src: "/images/campus/facilities/hostel-girls-hostel-1.webp", label: "Girls Hostel Wing A" },
+      { src: "/images/campus/facilities/hostel-girls-hostel-2.webp", label: "Girls Hostel Wing B" }
     ],
     bulletPoints: [
       {
@@ -69,10 +69,10 @@ const visualFacilities: Facility[] = [
     badge: "4 Meals Daily",
     desc: "A highly hygienic hostel mess serving four nutritious, balanced, and fresh meals daily (breakfast, lunch, evening snacks, and dinner) to keep students healthy and focused.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CANTEEN.webp", label: "Boys Canteen" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CONTEEN 2.webp", label: "Boys Canteen Dining Area" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN 2.webp", label: "Girls Canteen Dining Area" }
+      { src: "/images/campus/facilities/canteen-boys-canteen.webp", label: "Boys Canteen" },
+      { src: "/images/campus/facilities/canteen-girls-canteen.webp", label: "Girls Canteen" },
+      { src: "/images/campus/facilities/canteen-boys-conteen-2.webp", label: "Boys Canteen Dining Area" },
+      { src: "/images/campus/facilities/canteen-girls-canteen-2.webp", label: "Girls Canteen Dining Area" }
     ],
     bulletPoints: [
       {
@@ -99,7 +99,7 @@ const visualFacilities: Facility[] = [
     badge: "300+ Capacity",
     desc: "We regularly organize seminars, workshops, and guest lectures to keep our students at the forefront of modern science and technology. Our spacious hall serves as the hub.",
     images: [
-      { src: "/new/FACILITIES/SEMINAR HALL.webp", label: "Seminar Hall Main Stage" }
+      { src: "/images/campus/facilities/seminar-hall.webp", label: "Seminar Hall Main Stage" }
     ],
     bulletPoints: [
       {
@@ -126,10 +126,10 @@ const visualFacilities: Facility[] = [
     badge: "Annual Events",
     desc: "We believe a healthy mind resides in a healthy body. Our campus features dedicated playgrounds and sports courts where students engage in outdoor and indoor activities to develop fitness and teamwork.",
     images: [
-      { src: "/new/FACILITIES/SPORTS EVENTS/DSC_6464.webp", label: "Annual Sports - Cricket Match" },
-      { src: "/new/FACILITIES/SPORTS EVENTS/DSC_6505.webp", label: "Annual Sports - Running Meet" },
-      { src: "/new/FACILITIES/SPORTS EVENTS/DSC_6569.webp", label: "Annual Sports - Tug of War" },
-      { src: "/new/FACILITIES/SPORTS EVENTS/DSC_6632.webp", label: "Annual Sports - Winners Ceremony" }
+      { src: "/images/campus/facilities/sports-events-dsc-6464.webp", label: "Annual Sports - Cricket Match" },
+      { src: "/images/campus/facilities/sports-events-dsc-6505.webp", label: "Annual Sports - Running Meet" },
+      { src: "/images/campus/facilities/sports-events-dsc-6569.webp", label: "Annual Sports - Tug of War" },
+      { src: "/images/campus/facilities/sports-events-dsc-6632.webp", label: "Annual Sports - Winners Ceremony" }
     ],
     bulletPoints: [
       {
@@ -156,7 +156,7 @@ const visualFacilities: Facility[] = [
     badge: "Professional Mentors",
     desc: "A team of highly qualified and experienced teachers residing close to the campus, offering round-the-clock guidance, board preparation support, and conceptual mentorship.",
     images: [
-      { src: "/new/FACILITIES/FACULITIES.webp", label: "Experienced teaching faculty group photo" }
+      { src: "/images/campus/facilities/faculities.webp", label: "Experienced teaching faculty group photo" }
     ],
     bulletPoints: [
       {
@@ -183,9 +183,9 @@ const visualFacilities: Facility[] = [
     badge: "Connected Fleet",
     desc: "A large dedicated fleet of well-connected local buses ensuring safe, comfortable, and timely commutes for day scholars across Dhenkanal and surrounding areas.",
     images: [
-      { src: "/new/FACILITIES/TRANSPORTATION FACILITY/DSC_1193.webp", label: "College Transport Fleet Front View" },
-      { src: "/new/FACILITIES/TRANSPORTATION FACILITY/DSC_1304.webp", label: "College Bus Side Profile" },
-      { src: "/new/FACILITIES/TRANSPORTATION FACILITY/DSC_1396.webp", label: "Student Commuting Boarding" }
+      { src: "/images/campus/facilities/transportation-facility-dsc-1193.webp", label: "College Transport Fleet Front View" },
+      { src: "/images/campus/facilities/transportation-facility-dsc-1304.webp", label: "College Bus Side Profile" },
+      { src: "/images/campus/facilities/transportation-facility-dsc-1396.webp", label: "Student Commuting Boarding" }
     ],
     bulletPoints: [
       {
@@ -212,10 +212,10 @@ const visualFacilities: Facility[] = [
     badge: "Interactive Setup",
     desc: "Air-conditioned rooms with digital smart boards and AV systems transform complex concepts into visual experiences, making learning highly engaging.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7919.webp", label: "Digital Classroom 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7924.webp", label: "Digital Classroom 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7925.webp", label: "Digital Classroom 3" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/SMART CLASS ROOM/DSC_7928.webp", label: "Digital Classroom 4" }
+      { src: "/images/campus/facilities/smart-class-room-dsc-7919.webp", label: "Digital Classroom 1" },
+      { src: "/images/campus/facilities/smart-class-room-dsc-7924.webp", label: "Digital Classroom 2" },
+      { src: "/images/campus/facilities/smart-class-room-dsc-7925.webp", label: "Digital Classroom 3" },
+      { src: "/images/campus/facilities/smart-class-room-dsc-7928.webp", label: "Digital Classroom 4" }
     ],
     bulletPoints: [
       {
@@ -242,8 +242,8 @@ const visualFacilities: Facility[] = [
     badge: "Maximum Safety",
     desc: "A comprehensive network of high-definition CCTV cameras ensures round-the-clock safety and security across the entire campus.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CCTV/CCTV 1.webp", label: "Campus CCTV" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CCTV/CCTV 2.webp", label: "CCTV Surveillance" }
+      { src: "/images/campus/facilities/cctv-cctv-1.webp", label: "Campus CCTV" },
+      { src: "/images/campus/facilities/cctv-cctv-2.webp", label: "CCTV Surveillance" }
     ],
     bulletPoints: [
       {
@@ -270,9 +270,9 @@ const visualFacilities: Facility[] = [
     badge: "Extensive Collection",
     desc: "A quiet and fully equipped library with a vast collection of books, journals, and digital resources to support academic growth.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7957.webp", label: "Library Area 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7958.webp", label: "Library Area 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LAIBRARY/DSC_7960.webp", label: "Library Area 3" }
+      { src: "/images/campus/facilities/laibrary-dsc-7957.webp", label: "Library Area 1" },
+      { src: "/images/campus/facilities/laibrary-dsc-7958.webp", label: "Library Area 2" },
+      { src: "/images/campus/facilities/laibrary-dsc-7960.webp", label: "Library Area 3" }
     ],
     bulletPoints: [
       {
@@ -299,8 +299,8 @@ const visualFacilities: Facility[] = [
     badge: "Quality Meals",
     desc: "Our college canteen offers a wide variety of fresh, nutritious, and hygienically prepared meals and snacks for students and staff.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/BOYS CANTEEN.webp", label: "Boys Canteen" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/CANTEEN/GIRLS CANTEEN.webp", label: "Girls Canteen" }
+      { src: "/images/campus/facilities/canteen-boys-canteen.webp", label: "Boys Canteen" },
+      { src: "/images/campus/facilities/canteen-girls-canteen.webp", label: "Girls Canteen" }
     ],
     bulletPoints: [
       {
@@ -327,16 +327,16 @@ const visualFacilities: Facility[] = [
     badge: "Advanced Tech",
     desc: "Physics, Chemistry, Botany, and Zoology labs with modern instruments and specimens for comprehensive practical excellence.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 1.webp", label: "Chemistry Lab 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/CHEMISTRY 2.webp", label: "Chemistry Lab 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 1.webp", label: "Physics Lab 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/PHYSICS 2.webp", label: "Physics Lab 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 1.webp", label: "Botany Lab 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/BOTANY 2.webp", label: "Botany Lab 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 1.webp", label: "Zoology Lab 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/ZOOLOGY 2.webp", label: "Zoology Lab 2" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT.webp", label: "IT Lab 1" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT (2).webp", label: "IT Lab 2" }
+      { src: "/images/campus/facilities/laboratory-chemistry-1.webp", label: "Chemistry Lab 1" },
+      { src: "/images/campus/facilities/laboratory-chemistry-2.webp", label: "Chemistry Lab 2" },
+      { src: "/images/campus/facilities/laboratory-physics-1.webp", label: "Physics Lab 1" },
+      { src: "/images/campus/facilities/laboratory-physics-2.webp", label: "Physics Lab 2" },
+      { src: "/images/campus/facilities/laboratory-botany-1.webp", label: "Botany Lab 1" },
+      { src: "/images/campus/facilities/laboratory-botany-2.webp", label: "Botany Lab 2" },
+      { src: "/images/campus/facilities/laboratory-zoology-1.webp", label: "Zoology Lab 1" },
+      { src: "/images/campus/facilities/laboratory-zoology-2.webp", label: "Zoology Lab 2" },
+      { src: "/images/campus/facilities/laboratory-it.webp", label: "IT Lab 1" },
+      { src: "/images/campus/facilities/laboratory-it-(2).webp", label: "IT Lab 2" }
     ],
     bulletPoints: [
       {
@@ -363,8 +363,8 @@ const visualFacilities: Facility[] = [
     badge: "High-Speed Access",
     desc: "High-speed workstations, modern software, and broadband internet building digital fluency for every student.",
     images: [
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT.webp", label: "Computer Lab" },
-      { src: "/WEBSITE CHANGES 3/FACILITIES/LABORATORY/IT (2).webp", label: "IT Workstations" }
+      { src: "/images/campus/facilities/laboratory-it.webp", label: "Computer Lab" },
+      { src: "/images/campus/facilities/laboratory-it-(2).webp", label: "IT Workstations" }
     ],
     bulletPoints: [
       {

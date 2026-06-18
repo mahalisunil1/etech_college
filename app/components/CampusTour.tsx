@@ -42,7 +42,7 @@ export default function CampusTour() {
         <div className="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-[0_30px_80px_rgba(0,0,0,0.6)] border border-white/10 reveal">
           <video
             className="w-full h-full object-cover"
-            src="/new/e-Tech Campus - Drone View.mp4"
+            src="/videos/new-e-Tech-Campus-Drone-View.mp4"
             controls
             autoPlay
             loop

@@ -9,37 +9,37 @@ export default function Legacy() {
       stat: "12+ YRS",
       title: "District Toppers",
       desc: "Consistently producing top ranks since 2012, leading the district with academic excellence.",
-      image: "/legacy/toppers.webp"
+      image: "/images/about/legacy-toppers.webp"
     },
     {
       stat: "100%",
       title: "Pass Rate",
       desc: "Pass rate – securing 100% success with first division performance, year after year.",
-      image: "/legacy/high-pass-rate.webp"
+      image: "/images/about/legacy-high-pass-rate.webp"
     },
     {
       stat: "7/10",
       title: "State Top Ranks",
       desc: "7 of the Top 10 state rank holders were our institution, earning statewide recognition for academic excellence.",
-      image: "/legacy/state-purashkar.webp"
+      image: "/images/about/legacy-state-purashkar.webp"
     },
     {
       stat: "12+ YRS",
       title: "Highest Free Laptops",
       desc: "Since 2013, our students have consistently secured the highest number of free laptops in the district.",
-      image: "/legacy/laptop.webp"
+      image: "/images/about/legacy-laptop.webp"
     },
     {
       stat: "81.8%",
       title: "Competitive Selections",
       desc: "National competitive examination selections including JEE, NEET.",
-      image: "/legacy/toppers.webp"
+      image: "/images/about/legacy-toppers.webp"
     },
     {
       stat: "46%",
       title: "Elite 90% Club",
       desc: "Competitive selection 80%, national exam only. Proud selections in NEET and JEE.",
-      image: "/legacy/high-pass-rate.webp"
+      image: "/images/about/legacy-high-pass-rate.webp"
     },
   ];
 

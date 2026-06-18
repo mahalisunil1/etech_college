@@ -1,0 +1,834 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is BC57-8E15
+C:\USERS\LENOVO\DOWNLOADS\E_TECH_COLLEGE\E_TECH_COLLEGE\PUBLIC
+|   logo1.webp
+|   WEBSITE EDIT 4.pdf
+|   
++---about-us
+|   +---e-tech
+|   |       about-us-image-four.webp
+|   |       about_us_cover.webp
+|   |       DSC_0005(1).webp
+|   |       
+|   \---leadership
+|           Media (2).webp
+|           Media (3).webp
+|           
++---achievements
+|   \---carousel
+|           achievement-37164804.webp
+|           achievement-51378587.webp
+|           achievement-78318569.webp
+|           achievement-85881934.webp
+|           achievement-87573481.webp
+|           
++---annual-function-2026
+|       DSC_9210.webp
+|       DSC_9374.webp
+|       DSC_9375.webp
+|       DSC_9376.webp
+|       DSC_9377.webp
+|       DSC_9386.webp
+|       DSC_9390.webp
+|       DSC_9398.webp
+|       DSC_9402.webp
+|       DSC_9426.webp
+|       DSC_9533.webp
+|       DSC_9536.webp
+|       DSC_9642.webp
+|       DSC_9663.webp
+|       DSC_9667.webp
+|       DSC_9749.webp
+|       
++---CAMPUS
+|       CLASSROOM(2).webp
+|       DSC_0005(1).webp
+|       
++---chse-felicitation
+|   +---2024
+|   |       _DSC6673.webp
+|   |       _DSC6836.webp
+|   |       _DSC6839.webp
+|   |       _DSC6840.webp
+|   |       _DSC6841.webp
+|   |       
+|   \---2025
+|           DSC_1970.webp
+|           DSC_1971.webp
+|           DSC_1995.webp
+|           DSC_1996.webp
+|           
++---facilities
+|       computer-lab.webp
+|       hostel.webp
+|       seminar.webp
+|       
++---feliciations 2026
+|       DSC_7836.JPG
+|       DSC_7843.JPG
+|       
++---gallery-new
+|       DSC_7836.JPG
+|       DSC_7843.JPG
+|       
++---gallery-page
+|       gallery-image-eight.webp
+|       gallery-image-eleven.webp
+|       gallery-image-five.webp
+|       gallery-image-fiveteen.webp
+|       gallery-image-four.webp
+|       gallery-image-fourteen.webp
+|       gallery-image-nine.webp
+|       gallery-image-one.webp
+|       gallery-image-seven.webp
+|       gallery-image-six.webp
+|       gallery-image-ten.webp
+|       gallery-image-thirteen.webp
+|       gallery-image-three.webp
+|       gallery-image-twelve.webp
+|       gallery-image-two.webp
+|       
++---landing
+|   \---hero-bg
+|           hero-bg.webp
+|           students-cutout.webp
+|           
++---legacy
+|       high-pass-rate.webp
+|       laptop.webp
+|       state-purashkar.webp
+|       toppers.webp
+|       
++---new
+|   |   CAMPUS PHOTO.webp
+|   |   e-Tech Campus - Drone View.mp4
+|   |   SECRETARY MADAM.webp
+|   |   
+|   +---AWARDS & CEREMONIES
+|   |   |   DSC_7614.webp
+|   |   |   DSC_7621.webp
+|   |   |   DSC_7633.webp
+|   |   |   DSC_7665.webp
+|   |   |   DSC_7678.webp
+|   |   |   
+|   |   +---CHSE-2024
+|   |   |       _DSC6761.webp
+|   |   |       _DSC6770.webp
+|   |   |       _DSC6774.webp
+|   |   |       
+|   |   \---CHSE-2025
+|   |           DSC_1807.webp
+|   |           DSC_1816.webp
+|   |           DSC_1821.webp
+|   |           DSC_1840.webp
+|   |           DSC_1871.webp
+|   |           
+|   +---EVENTS
+|   |   +---2026 EVENTS
+|   |   |   \---FALICITATION
+|   |   |           DSC_7508.webp
+|   |   |           DSC_7514.webp
+|   |   |           DSC_7518.webp
+|   |   |           DSC_7524.webp
+|   |   |           DSC_7531.webp
+|   |   |           DSC_7541.webp
+|   |   |           DSC_7546.webp
+|   |   |           DSC_7556.webp
+|   |   |           DSC_7568.webp
+|   |   |           DSC_7569.webp
+|   |   |           DSC_7585.webp
+|   |   |           DSC_7595.webp
+|   |   |           DSC_7614.webp
+|   |   |           DSC_7621.webp
+|   |   |           DSC_7633.webp
+|   |   |           DSC_7635.webp
+|   |   |           DSC_7639.webp
+|   |   |           DSC_7665.webp
+|   |   |           DSC_7674.webp
+|   |   |           DSC_7678.webp
+|   |   |           DSC_7681.webp
+|   |   |           DSC_7690.webp
+|   |   |           DSC_7691.webp
+|   |   |           DSC_7817.webp
+|   |   |           DSC_7819.webp
+|   |   |           DSC_7822.webp
+|   |   |           DSC_7824.webp
+|   |   |           DSC_7828.webp
+|   |   |           DSC_7831.webp
+|   |   |           DSC_7833.webp
+|   |   |           DSC_7835.webp
+|   |   |           DSC_7839.webp
+|   |   |           DSC_7841.webp
+|   |   |           DSC_7846.webp
+|   |   |           DSC_7862.webp
+|   |   |           DSC_7865.webp
+|   |   |           DSC_7872.webp
+|   |   |           DSC_7875.webp
+|   |   |           DSC_7878.webp
+|   |   |           
+|   |   +---ANNUAL FUNCTION
+|   |   |       DSC_9210.webp
+|   |   |       DSC_9312.webp
+|   |   |       DSC_9323.webp
+|   |   |       DSC_9364.webp
+|   |   |       DSC_9391.webp
+|   |   |       DSC_9445.webp
+|   |   |       DSC_9535.webp
+|   |   |       DSC_9574.webp
+|   |   |       DSC_9755.webp
+|   |   |       DSC_9769.webp
+|   |   |       DSC_9956.webp
+|   |   |       DSC_9960.webp
+|   |   |       DSC_9982.webp
+|   |   |       
+|   |   +---ANNUAL SPORTS - 2025
+|   |   |       DSC_6464.webp
+|   |   |       DSC_6477.webp
+|   |   |       DSC_6505.webp
+|   |   |       DSC_6538.webp
+|   |   |       DSC_6545.JPG
+|   |   |       DSC_6549.webp
+|   |   |       DSC_6569.webp
+|   |   |       DSC_6632.webp
+|   |   |       DSC_6842.webp
+|   |   |       
+|   |   +---FAREWELL
+|   |   |       DSC_0010.webp
+|   |   |       DSC_0025.webp
+|   |   |       DSC_0027.webp
+|   |   |       DSC_0048.webp
+|   |   |       DSC_0060.webp
+|   |   |       DSC_0073.webp
+|   |   |       DSC_0088.webp
+|   |   |       DSC_0126.webp
+|   |   |       DSC_0173.webp
+|   |   |       DSC_0272.webp
+|   |   |       DSC_0305.webp
+|   |   |       DSC_0327.webp
+|   |   |       DSC_2496.webp
+|   |   |       DSC_2513.webp
+|   |   |       DSC_2523.webp
+|   |   |       DSC_2555.webp
+|   |   |       DSC_2597.webp
+|   |   |       DSC_2606.webp
+|   |   |       DSC_2640.webp
+|   |   |       DSC_2645.webp
+|   |   |       DSC_2672.webp
+|   |   |       DSC_2687.webp
+|   |   |       
+|   |   +---JAN-26
+|   |   |       DSC_9220.webp
+|   |   |       DSC_9224.webp
+|   |   |       DSC_9239.webp
+|   |   |       DSC_9251.webp
+|   |   |       DSC_9260.webp
+|   |   |       DSC_9267.webp
+|   |   |       DSC_9272.webp
+|   |   |       DSC_9286.webp
+|   |   |       DSC_9288.webp
+|   |   |       
+|   |   +---NATIONAL UNITY DAY
+|   |   |       DSC_0001.webp
+|   |   |       DSC_0002.webp
+|   |   |       DSC_0012.webp
+|   |   |       DSC_0014.webp
+|   |   |       DSC_0017.webp
+|   |   |       DSC_0018.webp
+|   |   |       
+|   |   +---PRATHAMASTAMI
+|   |   |       DSC_6791.webp
+|   |   |       DSC_6812.webp
+|   |   |       DSC_6818.webp
+|   |   |       DSC_6822.webp
+|   |   |       DSC_6888.webp
+|   |   |       DSC_9095.webp
+|   |   |       DSC_9144.webp
+|   |   |       DSC_9152.webp
+|   |   |       
+|   |   \---SWACCHATA ABHIYAN
+|   |           DSC_0004.webp
+|   |           DSC_0006.webp
+|   |           DSC_0027.webp
+|   |           DSC_0075.webp
+|   |           DSC_0091.webp
+|   |           DSC_0517.webp
+|   |           DSC_0519.webp
+|   |           DSC_0529.webp
+|   |           
+|   +---FACILITIES
+|   |   |   FACULITIES.webp
+|   |   |   SEMINAR HALL.webp
+|   |   |   
+|   |   +---HOSTEL
+|   |   |       BOYS HOSTEL FRONT.webp
+|   |   |       DSC_1196.webp
+|   |   |       GIRLS HOSTEL 1.webp
+|   |   |       GIRLS HOSTEL 2.webp
+|   |   |       
+|   |   +---SPORTS EVENTS
+|   |   |       DSC_6464.webp
+|   |   |       DSC_6505.webp
+|   |   |       DSC_6569.webp
+|   |   |       DSC_6632.webp
+|   |   |       
+|   |   \---TRANSPORTATION FACILITY
+|   |           DSC_1193.webp
+|   |           DSC_1304.webp
+|   |           DSC_1396.webp
+|   |           
+|   +---Gallery
+|   |   +---2022
+|   |   |       DSC_1993.webp
+|   |   |       DSC_2002.webp
+|   |   |       DSC_2015.webp
+|   |   |       DSC_2030.webp
+|   |   |       DSC_2053.webp
+|   |   |       DSC_2062.webp
+|   |   |       DSC_2146.webp
+|   |   |       DSC_2211.webp
+|   |   |       DSC_2319.webp
+|   |   |       DSC_2352.webp
+|   |   |       DSC_2585.webp
+|   |   |       DSC_2676.webp
+|   |   |       DSC_2708.webp
+|   |   |       DSC_2711.webp
+|   |   |       
+|   |   \---2026
+|   |           DSC_7508.webp
+|   |           DSC_7541.webp
+|   |           DSC_7546.webp
+|   |           DSC_7614.webp
+|   |           DSC_7621.webp
+|   |           DSC_7633.webp
+|   |           DSC_7817.webp
+|   |           DSC_7819.webp
+|   |           DSC_7822.webp
+|   |           DSC_7828.webp
+|   |           DSC_7831.webp
+|   |           DSC_7835.webp
+|   |           DSC_7839.webp
+|   |           DSC_7841.webp
+|   |           DSC_7846.webp
+|   |           
+|   \---Glorious Achievments
+|           12x8 - etech difference.webp
+|           15x6 - etech copyA.webp
+|           15x6 - etech.webp
+|           16x6 - 1 pc - etech - Copy.webp
+|           ADVT. HALF PAGE-D-02.webp
+|           KEY HIGHLIGHTS ADVT. - 2026.webp
+|           Parthasarathi Khilar.webp
+|           
++---oas-felicitation
+|       PHOTO-01.webp
+|       WhatsApp-Image-2024-11-19-at-3.37.01-PM-(3).webp
+|       WhatsApp-Image-2024-11-19-at-3.37.03-PM-(1).webp
+|       WhatsApp-Image-2025-11-18-at-10.17.54-AM.webp
+|       
++---principal
+|       principal.webp
+|       
++---RESULT
+|   +---2025
+|   |   \---E-TECH
+|   |           01 - ASHISH KUMAR SAHOO - 584.webp
+|   |           02 - S.RAMESWAREE NANDA - 580.webp
+|   |           03 - DARSHAN ROUT - 575.webp
+|   |           04 - AMBIKA PRASAD DASH - 573.webp
+|   |           05 - ITISHREE MAJHI - 573.webp
+|   |           06 - SWAYAN PRAVA PANDA - 571.webp
+|   |           07 - TEJASWINI PRIYADARSINI - 570.webp
+|   |           08 - SUBHASMITA SAHOO - 570.webp
+|   |           09 - SATYAJIT SAHOO - 569.webp
+|   |           10 - RAHUL SAHOO - 568.webp
+|   |           11 - UMAKANTA SAHOO - 568.webp
+|   |           12 - PRIYAM KUMAR MALLIK - 566.webp
+|   |           13 - SUBHASHREE SAHOO - 564.webp
+|   |           14 - UMESH SAHOO - 564.webp
+|   |           15 - SUBRATA KUAMR SAHOO - 563.webp
+|   |           16 - ROUPYASHREE DIVYADARSHINI SAHOO - 563.webp
+|   |           17 - ANURADHA SAHU - 562.webp
+|   |           18 - CHINMAYEE MISHRA - 562.webp
+|   |           19 - MANAS KUMAR PRADHAN - 562.webp
+|   |           20 - DOLAGOBINDA PANDA - 560.webp
+|   |           21 - BIDUSMITA ROUT - 561 - (W).webp
+|   |           22 - SWARNAMAYEE SAHOO - 560.webp
+|   |           23 - PRAJWALA PRADHAN - 559.webp
+|   |           24 - SWETALINA SAHOO - 559.webp
+|   |           25 - SUJIT PRADHAN - 559.webp
+|   |           26 - SALINSOUMYA SAHOO - 558.webp
+|   |           27 - ROJALIN SWAIN - 558.webp
+|   |           28 - SAMBIT KUMAR MALLIK - 558.webp
+|   |           29 - AMRUTMAYA BEHERA - 557.webp
+|   |           30 - SUBHALAXMI PRADHAN - 557.webp
+|   |           31 - CHANDAN SAHOO - 556.webp
+|   |           32 - MONASMINI SAHU - 556.webp
+|   |           33 - MANJIT MANIK - 555.webp
+|   |           34 - SATYABRATA ROUT - 555.webp
+|   |           35 - GAYATRI DEHURY - 554.webp
+|   |           36 - SOMALIN GARNAIK - 554.webp
+|   |           37 - SWATISHREE SAR - 553.webp
+|   |           38 - SUBHAM KUMAR SAHOO - 553.webp
+|   |           39 - PREMJIT ROUT - 552.webp
+|   |           40 - SURESH SAHOO - 551.webp
+|   |           41 - JYOTIRMAYEE SAHOO - 550.webp
+|   |           42 - KRISHNA BISWAL - 550.webp
+|   |           43 - RICHA PRIYADARSHINI SAHOO - 550 - (W).webp
+|   |           44 - SOMYASHREE SAHOO - 549.webp
+|   |           45 - SUBHAKANTA DEHURY - 548.webp
+|   |           46 - RUPALI PARIDA - 548 - (W).webp
+|   |           47 - RAMYARANJAN BEHERA - 547.webp
+|   |           48 - SHRUSTI SANDIPTA BHOI - 546 - (W).webp
+|   |           49 - MANISHA MAHARANA - 545.webp
+|   |           50 - SIMA BALA - 545.webp
+|   |           51 - RUDRA PRASAD RATH - 545.webp
+|   |           52 - RAJ NARAYAN SAHU - 545.webp
+|   |           53 - TEJASWINI SAHU - 544.webp
+|   |           54 - SUBHAM SAHU - 544.webp
+|   |           55 - SITAL SAHOO  - 544 - (W).webp
+|   |           56 - PRATIKSHYA PRIYADARSHINI PRADHAN - 543.webp
+|   |           57 - SASMITA SAHOO - 542.webp
+|   |           58 - KUMAR KARTIKEYAN SAHU - 542.webp
+|   |           59 - ROHAN KUMAR PRADHAN - 540.webp
+|   |           60 - TRISHNAMAYEE PRADHAN - 540.webp
+|   |           
+|   \---2026
+|       \---90% ACHIEVERS PHOTOS
+|               01 - PARHTA SARATHI KHILAR - 598.webp
+|               02 - SUJIT KUMAR RANA - 593.webp
+|               03 - SWABHIMAN BISWAL - 593.webp
+|               04 - SUMITRA PRADHAN - 592.webp
+|               05 - BINAYAK PATRA - 590.webp
+|               06 - SMRUTI RANJAN SAHOO - 589.webp
+|               07 - SUPRIYA SAMAL - 589.webp
+|               08 - SOURAV ROUT - 585.webp
+|               09 - DEBAPRASAD SAHOO - 584.webp
+|               10 - SUDARSHAN SAHOO - 584.webp
+|               11 - JITEN BEHERA - 583.webp
+|               12 - PRATHAMESH SAHOO - 582.webp
+|               13 - SMRUTIPRAJNA TRIPATHY - 581.webp
+|               14 - JASMAN SAHOO - 581.webp
+|               15 - BIMAL KUMAR BAI - 580.webp
+|               16 - CHIRANJIB PAL - 579.webp
+|               17 - SHUBHRAJIT MUDULI - 579.webp
+|               18 - SAMBIT SAHOO - 579.webp
+|               19 - ABHISHEK BEHERA - 579.webp
+|               20 - PRAGYAN PRIYADARSHINI ROUL - 579.webp
+|               21 - SAMA SANIA BEGUM - 578.webp
+|               22 - ANANYA PRIYADARSINI SAHOO - 578.webp
+|               23 - SONALI PRIYADARSINI SAHOO - 578.webp
+|               24 - SUCHISMITA SAHU - 577.webp
+|               25 - BARSHA MOHINI SAHU - 577.webp
+|               26 - JAGADISH PATTANAIK - 576.webp
+|               27 - SOUMYAJIT SAHOO - 576.webp
+|               28 - PRITIRANJAN SAHOO - 576.webp
+|               29 - BARSHA SUBHADARSHANI SAHU - 576.webp
+|               30 - SWAYAM SUBHAM SAMAL - 576.webp
+|               31 - ANKITA PRIYADARSHINI - 575.webp
+|               32 - MADHUSMITA SATHUA MOHAPATRA - 574.webp
+|               33 - JYOTIRANJAN SAHU - 574.webp
+|               34 - T.D YASHRAJ - 573.webp
+|               35 - OMM PRAKASH NAYAK - 573.webp
+|               36 - ROHAN SAHOO - 572.webp
+|               37 - SATYANARAYAN PANI - 572.webp
+|               38 - RAJASHREE RAJALAXMI SAHOO - 572.webp
+|               39 - TUSHAR RANJAN PRADHAN - 572.webp
+|               40 - RAKESH ROUT - 571.webp
+|               41 - LUSI SAHU - 570.webp
+|               42 - DEEPSITA PRADHAN - 570.webp
+|               43 - RATANDEEP SAHOO - 570.webp
+|               44 - BRAHMANANDA SAHU - 570.webp
+|               45 - ASUTOSH AMANTA - 570.webp
+|               46 - SITAL SAHOO - 569.webp
+|               47 - SMRUTIRANJAN SAHU - 569.webp
+|               48 - LOPAMUDRA SAHOO - 569.webp
+|               49 - ASTHA ADYASHA MOHANTY - 569.webp
+|               50 - STHITIPRAGYAN DASH - 568.webp
+|               
++---roll.nos
+|       AHSE Details Result-2026 - e-Tech (Only 90%).pdf
+|       AHSE Details Result-2026 - Women's - Only 90%.pdf
+|       
+\---WEBSITE CHANGES 3
+    |   principal eTech womens college.webp
+    |   website 3.pdf
+    |   
+    +---CHSE 90% ACHIEVERS
+    |   |   01 - PARHTA SARATHI KHILAR - 598.webp
+    |   |   02 - SUJIT KUMAR RANA - 593.webp
+    |   |   03 - SWABHIMAN BISWAL - 593.webp
+    |   |   04 - SUMITRA PRADHAN - 592.webp
+    |   |   05 - BINAYAK PATRA - 590.webp
+    |   |   06 - SMRUTI RANJAN SAHOO - 589.webp
+    |   |   07 - SUPRIYA SAMAL - 589.webp
+    |   |   08 - SOURAV ROUT - 585.webp
+    |   |   09 - DEBAPRASAD SAHOO - 584.webp
+    |   |   10 - SUDARSHAN SAHOO - 584.webp
+    |   |   100 - JYOTIPRAKASH SETHI - 550.webp
+    |   |   101 - PRANGYA PARAMITA PRADHAN - 550.webp
+    |   |   102 - MILAN KUMAR ACHARYA - 549.webp
+    |   |   103 - DEBIDUTTA SATPATHY - 549.webp
+    |   |   104 - SUBHANKAR PRADHAN - 549.webp
+    |   |   105 - SOUMENDRA ROUT - 548.webp
+    |   |   106 - ASISH BISWAL - 548.webp
+    |   |   107 - SUSHREE SAYALEE BEHERA - 547.webp
+    |   |   108 - PRABHUJEET BEHERA - 547.webp
+    |   |   109 - AKANKSHYA AKASMITA MAHALIK - 547.webp
+    |   |   11 - JITEN BEHERA - 583.webp
+    |   |   110 - YUVRAJ SAHU - 546.webp
+    |   |   111 - IPSITA TRIPATHY - 546.webp
+    |   |   112 - TAPAS RANJAN SAHU - 546.webp
+    |   |   113 - PRACHI PREKSHYA BEHERA - 545.webp
+    |   |   114 - KRUSHNAPRIYA BARAL - 545.webp
+    |   |   115 - PRATEEK SAHOO - 545.webp
+    |   |   116 - SMRUTI RANJAN SAHOO - 544.webp
+    |   |   117 - PRIYAM SAHOO - 544.webp
+    |   |   118 - BISHMAY KESHARI PRADHAN - 543.webp
+    |   |   119 - IPSITA SAHOO - 543.webp
+    |   |   12 - PRATHAMESH SAHOO - 582.webp
+    |   |   120 - PRACHI PRIYADARSHINI KHUNTIA - 543.webp
+    |   |   121 - SUSHREE TAMANNA SAHU - 543.webp
+    |   |   122 - SURAJ KUMAR SAHOO - 543.webp
+    |   |   123 - PRANGYASMITA PARIDA - 542.webp
+    |   |   124 - CHINMAYEE SAMAL - 542.webp
+    |   |   125 - SOUMYASHREE RATH - 542.webp
+    |   |   126 - SIMRAN ACHARYA - 541.webp
+    |   |   127 - SHUBHASHREE BISWAL - 541.webp
+    |   |   128 - LOPITA DASH - 540.webp
+    |   |   129 - YASHOBANTA PRADHAN - 540.webp
+    |   |   13 - SMRUTIPRAJNA TRIPATHY - 581.webp
+    |   |   14 - JASMAN SAHOO - 581.webp
+    |   |   15 - BIMAL KUMAR BAI - 580.webp
+    |   |   16 - CHIRANJIB PAL - 579.webp
+    |   |   17 - SHUBHRAJIT MUDULI - 579.webp
+    |   |   18 - SAMBIT SAHOO - 579.webp
+    |   |   19 - ABHISHEK BEHERA - 579.webp
+    |   |   20 - PRAGYAN PRIYADARSHINI ROUL - 579.webp
+    |   |   21 - SAMA SANIA BEGUM - 578.webp
+    |   |   22 - ANANYA PRIYADARSINI SAHOO - 578.webp
+    |   |   23 - SONALI PRIYADARSINI SAHOO - 578.webp
+    |   |   24 - SUCHISMITA SAHU - 577.webp
+    |   |   25 - BARSHA MOHINI SAHU - 577.webp
+    |   |   26 - JAGADISH PATTANAIK - 576.webp
+    |   |   27 - SOUMYAJIT SAHOO - 576.webp
+    |   |   28 - PRITIRANJAN SAHOO - 576.webp
+    |   |   29 - BARSHA SUBHADARSHANI SAHU - 576.webp
+    |   |   30 - SWAYAM SUBHAM SAMAL - 576.webp
+    |   |   31 - ANKITA PRIYADARSHINI - 575.webp
+    |   |   32 - MADHUSMITA SATHUA MOHAPATRA - 574.webp
+    |   |   33 - JYOTIRANJAN SAHU - 574.webp
+    |   |   34 - T.D YASHRAJ - 573.webp
+    |   |   35 - OMM PRAKASH NAYAK - 573.webp
+    |   |   36 - ROHAN SAHOO - 572.webp
+    |   |   37 - SATYANARAYAN PANI - 572.webp
+    |   |   38 - RAJASHREE RAJALAXMI SAHOO - 572.webp
+    |   |   39 - TUSHAR RANJAN PRADHAN - 572.webp
+    |   |   40 - RAKESH ROUT - 571.webp
+    |   |   41 - LUSI SAHU - 570.webp
+    |   |   42 - DEEPSITA PRADHAN - 570.webp
+    |   |   43 - RATANDEEP SAHOO - 570.webp
+    |   |   44 - BRAHMANANDA SAHU - 570.webp
+    |   |   45 - ASUTOSH AMANTA - 570.webp
+    |   |   46 - SITAL SAHOO - 569.webp
+    |   |   47 - SMRUTIRANJAN SAHU - 569.webp
+    |   |   48 - LOPAMUDRA SAHOO - 569.webp
+    |   |   49 - ASTHA ADYASHA MOHANTY - 569.webp
+    |   |   50 - STHITIPRAGYAN DASH - 568.webp
+    |   |   51 - PRABHANJAN SAHU - 567.webp
+    |   |   52 - SHREEMA PRIYADARSINI SAHU - 567.webp
+    |   |   53 - ANIL KUMAR JENA - 567.webp
+    |   |   54 - BHAGYALAXMI SAHOO - 567.webp
+    |   |   55 - PAYAL SAHOO - 566.webp
+    |   |   56 - RAHULESH SAHOO - 566.webp
+    |   |   57 - PUPUN NAYAK - 566.webp
+    |   |   58 - DEBADATTA SAHOO - 565.webp
+    |   |   59 - SWAYAMSHREE PRUSTY - 565.webp
+    |   |   60 - OMM PRAKASH BEHERA - 564.webp
+    |   |   61 - AKASH JYOTI DEHURY - 564.webp
+    |   |   62 - SWAYAM JENA - 564.webp
+    |   |   63 - OMM PRAKASH NAYAK - 563.webp
+    |   |   64 - OM PRAKASH GANTHIA - 563.webp
+    |   |   65 - ANANYA ROUT - 562.webp
+    |   |   66 - JYOTSNA RANI BEHERA - 561.webp
+    |   |   67 - KRISHNABHARATI PRUSTY - 561.webp
+    |   |   68 - PRIYASMITA SAHOO - 561.webp
+    |   |   69 - PIYUSH SAMAL - 561.webp
+    |   |   70 - SOUMYA SOURAV SAHOO - 560.webp
+    |   |   71 - RAMA CHANDRA BEHERA - 560.webp
+    |   |   72 - OM PRAKASH SAHOO - 559.webp
+    |   |   73 - MANAS RANJAN BEHERA - 559.webp
+    |   |   74 - JYOTSHNAMAYEE JENA - 559.webp
+    |   |   75 - TAPASWINEE PANDA - 558.webp
+    |   |   76 - PRANAYA KUMAR RATH - 558.webp
+    |   |   77 - PINAKI PRITAM CHHOTARAY - 558.webp
+    |   |   78 - SOVEN KUMAR SAHOO - 558.webp
+    |   |   79 - PRATYUSH PRADHAN - 557.webp
+    |   |   80 - OMMSHREE ACHARYA - 557.webp
+    |   |   81 - SHUBHALAXMI SAHOO - 557.webp
+    |   |   82 - MONALISA PATTANAIK - 557.webp
+    |   |   83 - NIRUPAMA MOHANTA - 557.webp
+    |   |   84 - AMARENDRA BARAL - 556.webp
+    |   |   85 - JAYASHREE SAHOO - 556.webp
+    |   |   86 - NAMO JAGANNATHA MOHAKHUD - 556.webp
+    |   |   87 - ANSHUMAN ROUT - 555.webp
+    |   |   88 - BISHNUPRIYA BISWAL - 555.webp
+    |   |   89 - ARCHITA PRADHAN - 554.webp
+    |   |   90 - ANKITA GARNAIK - 554.webp
+    |   |   91 - DIPTESH KUMAR PARIDA - 554.webp
+    |   |   92 - SHIB SHAIN SAHOO - 553.webp
+    |   |   93 - SABNAM DEHURY - 553.webp
+    |   |   94 - BHABANI SHANKAR SAHOO - 553.webp
+    |   |   95 - SARTHAK MISHRA - 553.webp
+    |   |   96 - SATYABRATA GURU - 553.webp
+    |   |   97 - AYUSH KUMAR SAHOO - 552.webp
+    |   |   98 - NIKHILESH PANDA - 552.webp
+    |   |   99 - BISHNU CHARAN PRADHAN - 551.webp
+    |   |   
+    |   \---90% ACHIEVERS PHOTOS - WOMENS
+    |           01 - SUBHALAXMI MAHARANA - 570.webp
+    |           02 - MOUSUMI SENAPATI - 557.webp
+    |           03 - SOHANI BEHERA - 550.webp
+    |           04 - ANKITA SAHOO - 550.webp
+    |           
+    +---ENTRANCE PAGE
+    |   |   ONE TO ONE DOUBT CLEAR.webp
+    |   |   STUDY ROOM.webp
+    |   |   
+    |   +---AWARDS & CEREMONEY
+    |   |   +---2023-MEDICAL
+    |   |   |       DSC_5350.webp
+    |   |   |       DSC_5356.webp
+    |   |   |       DSC_5364.webp
+    |   |   |       DSC_5374.webp
+    |   |   |       DSC_5379.webp
+    |   |   |       DSC_5386.webp
+    |   |   |       DSC_5387.webp
+    |   |   |       DSC_5434.webp
+    |   |   |       DSC_5444.webp
+    |   |   |       
+    |   |   +---2024-MEDICAL
+    |   |   |       WhatsApp Image 2025-12-30 at 10.59.10 AM.webp
+    |   |   |       _DSC1218.webp
+    |   |   |       _DSC1283.webp
+    |   |   |       _DSC1299.webp
+    |   |   |       _DSC1305.webp
+    |   |   |       _DSC1311.webp
+    |   |   |       _DSC1320.webp
+    |   |   |       _DSC1328.webp
+    |   |   |       _DSC1334.webp
+    |   |   |       _DSC1341.webp
+    |   |   |       _DSC1393.webp
+    |   |   |       
+    |   |   \---2025 - MEDICAL
+    |   |           DSC_7397.webp
+    |   |           DSC_7433.webp
+    |   |           DSC_7436.webp
+    |   |           DSC_7439.webp
+    |   |           DSC_7444.webp
+    |   |           DSC_7477.webp
+    |   |           DSC_7554.webp
+    |   |           
+    |   +---ENTRANCE CLASS ROOM
+    |   |       DSC_7885.webp
+    |   |       DSC_7890.webp
+    |   |       
+    |   +---ENTRANCE DATA
+    |   |   +---JEE
+    |   |   |   +---BANNER
+    |   |   |   |       2025.webp
+    |   |   |   |       2026.webp
+    |   |   |   |       UPDATED JEE MAIN ADVT. - 26-04-2024.pdf
+    |   |   |   |       
+    |   |   |   \---RESULT
+    |   |   |       +---2024
+    |   |   |       |       01 - SWADHIN KUMAR KAR - 99.1.webp
+    |   |   |       |       02 - DIBYANSHU SAHOO - 97.66.webp
+    |   |   |       |       03- PRIYAM PRIYANSHU MOHANTY - 97.16.webp
+    |   |   |       |       04 _ NILAMADHAB MISHRA _ 95.4.webp
+    |   |   |       |       05 - ABHISEK PAL - 94.94.webp
+    |   |   |       |       06 - SIBANANDA BEHERA - 93.74.webp
+    |   |   |       |       07- RESHAB KUMAR DASH- 93.12.webp
+    |   |   |       |       08 - MONALISHA SAHOO - 92.81.webp
+    |   |   |       |       09 - SMRUTI RANJAN JENA - 92.65.webp
+    |   |   |       |       10- HITESH PARIDA - 92.53.webp
+    |   |   |       |       11 - ROHAN KU. SAMAL - 91.98.webp
+    |   |   |       |       12 - SOBHALIN BEHERA - 91.93.webp
+    |   |   |       |       13 - NATASHA SAHU - 91.64.webp
+    |   |   |       |       14 - ASHIRBAD SWAIN - 91.52.webp
+    |   |   |       |       15 - SUBHASISH SAHOO - 90.87.webp
+    |   |   |       |       16 - RITESH KUMAR KHATUA - 90.67.webp
+    |   |   |       |       17 - SUBHAKANTA GARNAIK - 90.55.webp
+    |   |   |       |       18 - SEVARANI RAJ - 90.03.webp
+    |   |   |       |       
+    |   |   |       +---2025
+    |   |   |       |       01 - CHANDAN SAHOO _ 97.79.webp
+    |   |   |       |       02 _ AJAYA PRADHAN _ 97.67.webp
+    |   |   |       |       03 _ ASHISH KUMAR SAHOO _ 97.63.webp
+    |   |   |       |       04 _ BIJAYA PRADHAN _ 97.27.webp
+    |   |   |       |       05 _ RITESH KUMAR KHATUA _ 97.07.webp
+    |   |   |       |       06 - DARSHAN ROUT _ 96.99.webp
+    |   |   |       |       07 _ SOMESH PANY _ 96.76.webp
+    |   |   |       |       08 _ AKASH DEHURY _ 94.3.webp
+    |   |   |       |       09 _ SUBHAKANTA GARNAIK _ 94.11.webp
+    |   |   |       |       10 _ SIDDHESWAR SAHOO _ 93.89.webp
+    |   |   |       |       11 _ ROHAN KUMAR SAMAL _ 92.28.webp
+    |   |   |       |       12 _ MONALISA SAHOO _ 91.57.webp
+    |   |   |       |       13 _ RAMYARANJAN BEHERA _ 91.32.webp
+    |   |   |       |       14 - DEBI PRASAD SAHOO _ 90.68.webp
+    |   |   |       |       15 _ SWADHIN SAHU _ 90.22.webp
+    |   |   |       |       16 _ MANJIT MANIK _ 90.01.webp
+    |   |   |       |       
+    |   |   |       \---2026
+    |   |   |               01 - BIJAY KUMAR PRADHAN.webp
+    |   |   |               02 - SATYAJIT SAHOO.webp
+    |   |   |               03 - PRABHUDATTA PARIDA.webp
+    |   |   |               04 - HIMANSHU SEKHAR BEHERA.webp
+    |   |   |               05 - OMM PRAKASH SAHOO.webp
+    |   |   |               06 - PRITIRANJAN SAHOO.webp
+    |   |   |               07 - ROHAN KUMAR SAHOO.webp
+    |   |   |               08 - RAMYA RANJAN BEHERA.webp
+    |   |   |               09 - SRIMUN PRADHAN.webp
+    |   |   |               10 - KUMAR JOGESWAR PATI.webp
+    |   |   |               11 - MANJIT MANIK.webp
+    |   |   |               12 - RICHA P. SAHOO.webp
+    |   |   |               13 - AMRUTYAMAYA BEHERA.webp
+    |   |   |               14 - UMESH SAHOO.webp
+    |   |   |               15 - DEBA PRASAD SAHOO.webp
+    |   |   |               16 - RUDRA PRASAD RATH.webp
+    |   |   |               17 - RAJ NARAYAN SAHOO.webp
+    |   |   |               18 - SANGRAM KESHARI TRIPATHY.webp
+    |   |   |               19 - DEBASISH PRADHAN.webp
+    |   |   |               MAHESH KUMAR SAHOO.webp
+    |   |   |               SUPRIYA SAMAL.webp
+    |   |   |               SWABHIMAN BISWAL.webp
+    |   |   |               
+    |   |   \---NEET
+    |   |       +---BANNERS
+    |   |       |       MEDICAL ADVT 2024.webp
+    |   |       |       NEET ADVT. - 2025 - 02.pdf
+    |   |       |       NEET_2025_BANNER.png
+    |   |       |       
+    |   |       \---RESULT
+    |   |           +---2023
+    |   |           |       01 - SUBHAM DASH - 657.webp
+    |   |           |       02 - RUTUPARNA PANIGRAHI - 645.webp
+    |   |           |       03 - DEEPAK RANA - 638.webp
+    |   |           |       04 - SATYAPRIYANSHU  SWAIN - 627.webp
+    |   |           |       05 - CHINMAYA NANDA - 606.webp
+    |   |           |       06 - GEETARANI BEHERA - 606.webp
+    |   |           |       07 - PRAGYAN P. SWAIN - 597.webp
+    |   |           |       08 - SUBHAJIT SWAIN - 579.webp
+    |   |           |       09 - SOUMYA RANJAN SAHOO - 577.webp
+    |   |           |       10 - BHARAT GOURAB RAY - 570.webp
+    |   |           |       11 - ASHWINI KUMAR MISHRA - 569.webp
+    |   |           |       12 - CHANDAN BEHERA - 541 (ST).webp
+    |   |           |       
+    |   |           +---2024
+    |   |           |       01 - ANIMESH SHEE - 680.webp
+    |   |           |       02 - ABHISEK PAL - 676.webp
+    |   |           |       03 - BHARAT GOURAB RAY - 666.webp
+    |   |           |       04 - SARASWETA MISHRA - 664.webp
+    |   |           |       05 - NILAMADHABA MISHRA - 661.webp
+    |   |           |       06 - SUBHAJIT SWAIN - 656.webp
+    |   |           |       07 - ASHWINI KU. MISHRA - 652.webp
+    |   |           |       08 - DIBYANSHU SAHOO - 649.webp
+    |   |           |       09 - HITESH PARIDA - 645.webp
+    |   |           |       10 - LIPSITA SAHU - 645.webp
+    |   |           |       11 - PREETI PRAJNA PRIYADARSHINI - 644.webp
+    |   |           |       12 - SIBANANDA BEHERA - 639.webp
+    |   |           |       13 - SEVARANI RAJ - 636.webp
+    |   |           |       14 - HEMANTA Ku. PRADHAN - 631.webp
+    |   |           |       15 - LAXMIPRIYA SAHOO - 625.webp
+    |   |           |       16 - MONALISHA SAHOO - 625.webp
+    |   |           |       17 - SOUMYA RANJAN PRADHAN - 621.webp
+    |   |           |       18 - SOUMYA RANJAN SAHOO - 612.webp
+    |   |           |       19 - SOBHALIN BEHERA - 611.webp
+    |   |           |       20 - ANITA SAHOO - 605.webp
+    |   |           |       21 - PRATIKSHYA BAL - 604.webp
+    |   |           |       22 - SONAM SAHOO - 598.webp
+    |   |           |       
+    |   |           \---2025
+    |   |                   01 - MONALISHA SAHOO - 599.webp
+    |   |                   02 - AKASH DEHURY - 588.webp
+    |   |                   03 - SONAM SAHOO - 565.webp
+    |   |                   04  - ASHISH KUMAR SAHOO - 556.webp
+    |   |                   05 - AJAYA PRADAHAN - 553.webp
+    |   |                   06 - SIDDHESWAR SAHOO - 550.webp
+    |   |                   07 - SUBHASISH MISHRA - 540.webp
+    |   |                   08 - RITESH KUMAR KHATUA - 533.webp
+    |   |                   09 - SEVARANI RAJ - 532.webp
+    |   |                   10 - SUCHMISMITA MISHRA - 531.webp
+    |   |                   11 -  SMRUTIREKHA MUDULI - 528.webp
+    |   |                   12 - SOMESH PANY - 527.webp
+    |   |                   13 - SWAYAM PRAKASH SARANGI - 527.webp
+    |   |                   14 - PRATIKSHYA BAL - 526.webp
+    |   |                   15 - J.B. JANHABI - 523.webp
+    |   |                   16 - PREETI PRAJNA PRIYADARSHINI - 519.webp
+    |   |                   17 - HIMANSHU SHEKHAR BEHERA - 513.webp
+    |   |                   18 - BIJAYA PRADHAN - 509.webp
+    |   |                   19 - SUBHASMITA BEHERA - 507.webp
+    |   |                   20 - MONALISHA PRADHAN - 506.webp
+    |   |                   21 - DIPTIMAYEE PANI - 505.webp
+    |   |                   22 - SUBHAKANTA GARNAIK - 504.webp
+    |   |                   23 - SOUMYA RANJAN SAHOO - 423 (SC).webp
+    |   |                   24 - CBSE - SATARUPA NANDA - 546.webp
+    |   |                   25 - CBSE - MANISHA SAHOO - 539.webp
+    |   |                   
+    |   +---EXAM
+    |   |       DSC_7896.webp
+    |   |       DSC_7897.webp
+    |   |       
+    |   \---SMART CLASS ROOM
+    |           DSC_7887.webp
+    |           DSC_7888.webp
+    |           DSC_7889.webp
+    |           
+    +---FACILITIES
+    |   |   BOARD.webp
+    |   |   
+    |   +---CANTEEN
+    |   |       BOYS CANTEEN.webp
+    |   |       BOYS CONTEEN 2.webp
+    |   |       DSC_7900.webp
+    |   |       GIRLS CANTEEN 2.webp
+    |   |       GIRLS CANTEEN.webp
+    |   |       
+    |   +---CCTV
+    |   |       CCTV 1.webp
+    |   |       CCTV 2.webp
+    |   |       
+    |   +---CLASS ROOM
+    |   |       DSC_7920.webp
+    |   |       DSC_7929.webp
+    |   |       DSC_7931.webp
+    |   |       DSC_7971.webp
+    |   |       DSC_7974.webp
+    |   |       DSC_7975.webp
+    |   |       
+    |   +---LABORATORY
+    |   |       BOTANY 1.webp
+    |   |       BOTANY 2.webp
+    |   |       CHEMISTRY 1.webp
+    |   |       CHEMISTRY 2.webp
+    |   |       IT (2).webp
+    |   |       IT.webp
+    |   |       PHYSICS 1.webp
+    |   |       PHYSICS 2.webp
+    |   |       ZOOLOGY 1.webp
+    |   |       ZOOLOGY 2.webp
+    |   |       
+    |   +---LAIBRARY
+    |   |       DSC_7957.webp
+    |   |       DSC_7958.webp
+    |   |       DSC_7960.webp
+    |   |       
+    |   \---SMART CLASS ROOM
+    |           DSC_7919.webp
+    |           DSC_7924.webp
+    |           DSC_7925.webp
+    |           DSC_7928.webp
+    |           
+    \---FALICITATION
+            DSC_7836.webp
+            DSC_7837.webp
+            

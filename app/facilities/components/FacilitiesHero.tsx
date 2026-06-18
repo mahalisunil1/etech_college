@@ -34,7 +34,7 @@ export default function FacilitiesHero() {
     <section className="relative w-full min-h-[92vh] flex flex-col items-center justify-center overflow-hidden">
 
       {/* ── Background Image ── */}
-      <Image src="/new/CAMPUS PHOTO.webp"
+      <Image src="/images/campus/campus-photo.webp"
         alt="eTech Campus"
         className="absolute inset-0 w-full h-full object-cover object-center scale-105"
         style={{ filter: "brightness(0.38) saturate(1.1)" }}

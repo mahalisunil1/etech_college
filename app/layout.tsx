@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "eTech Residential College",
   description: "Experience an innovative curriculum and world-class infrastructure designed to unlock every student's true potential at eTech Residential College.",
   icons: {
-    icon: "/logo1.webp",
+    icon: "/images/landing/logo1.webp",
   },
   openGraph: {
     title: "eTech Residential College",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "eTech Residential College",
     images: [
       {
-        url: "/landing/hero-bg/hero-bg.webp",
+        url: "/images/landing/landing-hero-bg-hero-bg.webp",
         width: 1200,
         height: 630,
         alt: "eTech College Campus",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "eTech Residential College",
     description: "Experience an innovative curriculum and world-class infrastructure designed to unlock every student's true potential.",
-    images: ["/landing/hero-bg/hero-bg.webp"],
+    images: ["/images/landing/landing-hero-bg-hero-bg.webp"],
   },
 };
 

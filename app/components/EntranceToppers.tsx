@@ -5,16 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 
 const allToppers = [
-  { name: "BIJAY KUMAR PRADHAN", rank: "JEE 2026", score: "Top Score", exam: "JEE", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/JEE/RESULT/2026/01 - BIJAY KUMAR PRADHAN.webp" },
-  { name: "MONALISHA SAHOO", rank: "NEET 2025", score: "599", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2025/01 - MONALISHA SAHOO - 599.webp" },
-  { name: "AKASH DEHURY", rank: "NEET 2025", score: "588", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2025/02 - AKASH DEHURY - 588.webp" },
-  { name: "ANIMESH SHEE", rank: "NEET 2024", score: "680", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/01 - ANIMESH SHEE - 680.webp" },
-  { name: "SWADHIN KUMAR KAR", rank: "JEE 2024", score: "99.1 %ile", exam: "JEE", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/JEE/RESULT/2024/01 - SWADHIN KUMAR KAR - 99.1.webp" },
-  { name: "SUBHAM DASH", rank: "NEET 2023", score: "657", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2023/01 - SUBHAM DASH - 657.webp" },
-  { name: "CHANDAN SAHOO", rank: "JEE 2025", score: "97.79 %ile", exam: "JEE", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/JEE/RESULT/2025/01 - CHANDAN SAHOO _ 97.79.webp" },
-  { name: "ABHISEK PAL", rank: "NEET 2024", score: "676", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/02 - ABHISEK PAL - 676.webp" },
-  { name: "BHARAT GOURAB RAY", rank: "NEET 2024", score: "666", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/03 - BHARAT GOURAB RAY - 666.webp" },
-  { name: "SARASWETA MISHRA", rank: "NEET 2024", score: "664", exam: "NEET", img: "/WEBSITE CHANGES 3/ENTRANCE PAGE/ENTRANCE DATA/NEET/RESULT/2024/04 - SARASWETA MISHRA - 664.webp" }
+  { name: "BIJAY KUMAR PRADHAN", rank: "JEE 2026", score: "Top Score", exam: "JEE", img: "/images/results/jee/2026/01-BIJAY-KUMAR-PRADHAN.webp" },
+  { name: "MONALISHA SAHOO", rank: "NEET 2025", score: "599", exam: "NEET", img: "/images/results/neet/2025/01-MONALISHA-SAHOO-599.webp" },
+  { name: "AKASH DEHURY", rank: "NEET 2025", score: "588", exam: "NEET", img: "/images/results/neet/2025/02-AKASH-DEHURY-588.webp" },
+  { name: "ANIMESH SHEE", rank: "NEET 2024", score: "680", exam: "NEET", img: "/images/results/neet/2024/01-ANIMESH-SHEE-680.webp" },
+  { name: "SWADHIN KUMAR KAR", rank: "JEE 2024", score: "99.1 %ile", exam: "JEE", img: "/images/results/jee/2024/01-SWADHIN-KUMAR-KAR-99.1.webp" },
+  { name: "SUBHAM DASH", rank: "NEET 2023", score: "657", exam: "NEET", img: "/images/results/neet/2023/01-SUBHAM-DASH-657.webp" },
+  { name: "CHANDAN SAHOO", rank: "JEE 2025", score: "97.79 %ile", exam: "JEE", img: "/images/results/jee/2025/01-CHANDAN-SAHOO-97.79.webp" },
+  { name: "ABHISEK PAL", rank: "NEET 2024", score: "676", exam: "NEET", img: "/images/results/neet/2024/02-ABHISEK-PAL-676.webp" },
+  { name: "BHARAT GOURAB RAY", rank: "NEET 2024", score: "666", exam: "NEET", img: "/images/results/neet/2024/03-BHARAT-GOURAB-RAY-666.webp" },
+  { name: "SARASWETA MISHRA", rank: "NEET 2024", score: "664", exam: "NEET", img: "/images/results/neet/2024/04-SARASWETA-MISHRA-664.webp" }
 ];
 
 export default function EntranceToppers({ transparentBg = false, theme = "light", limit, showViewAll = false }: { transparentBg?: boolean, theme?: "light" | "dark", limit?: number, showViewAll?: boolean }) {

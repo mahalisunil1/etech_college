@@ -161,7 +161,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3 shrink-0 group">
           <div className="relative">
             <div className="absolute inset-0 bg-blue-500 rounded-full blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300" />
-            <Image src="/logo1.webp" alt="eTech Logo" className="w-10 h-10 md:w-11 md:h-11 object-contain relative z-10"  width={800} height={800} unoptimized={false} />
+            <Image src="/images/landing/logo1.webp" alt="eTech Logo" className="w-10 h-10 md:w-11 md:h-11 object-contain relative z-10"  width={800} height={800} unoptimized={false} />
           </div>
           <div className="flex flex-col leading-none">
             <span className="text-[22px] md:text-[24px] font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">eTech</span>

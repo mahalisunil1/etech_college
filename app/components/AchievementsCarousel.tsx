@@ -4,13 +4,13 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const carouselImages = [
-  "/new/Glorious Achievments/15x6 - etech.webp",
-  "/new/Glorious Achievments/12x8 - etech difference.webp",
-  "/new/Glorious Achievments/15x6 - etech copyA.webp",
-  "/new/Glorious Achievments/16x6 - 1 pc - etech - Copy.webp",
-  "/new/Glorious Achievments/KEY HIGHLIGHTS ADVT. - 2026.webp",
-  "/new/Glorious Achievments/ADVT. HALF PAGE-D-02.webp",
-  "/new/Glorious Achievments/Parthasarathi Khilar.webp",
+  "/images/achievements/glorious-achievments-15x6-etech.webp",
+  "/images/achievements/glorious-achievments-12x8-etech-difference.webp",
+  "/images/achievements/glorious-achievments-15x6-etech-copya.webp",
+  "/images/achievements/glorious-achievments-16x6-1-pc-etech-copy.webp",
+  "/images/achievements/glorious-achievments-key-highlights-advt.2026.webp",
+  "/images/achievements/glorious-achievments-advt.half-page-d-02.webp",
+  "/images/achievements/glorious-achievments-parthasarathi-khilar.webp",
 ];
 
 export default function AchievementsCarousel() {
